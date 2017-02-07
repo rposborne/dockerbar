@@ -1,6 +1,6 @@
 //
-//  WeatherBarUITests.swift
-//  WeatherBarUITests
+//  DockerBarUITests.swift
+//  DockerBarUITests
 //
 //  Created by Russell Osborne on 2/6/17.
 //  Copyright © 2017 Russell Osborne. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class WeatherBarUITests: XCTestCase {
+class DockerBarUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
