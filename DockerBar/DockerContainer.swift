@@ -12,21 +12,34 @@ class DockerContainer {
     var name: String
     var id: String
     var active: Bool
+    var ports: String
+    var labels = [String: String]()
+    var compose_project: String
     
-    init(dockerString: String) {
-        let components = dockerString.components(separatedBy: "  ").filter { (x) -> Bool in
-            !x.isEmpty
-            }.map { (x) -> String in
-                x.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-            }
-        print(components)
-        id  = components[0]
-        name =  components.last!
+    init(json: [String: Any]) {
         
-        if components.count > 4 && components[4].contains("Exited") {
-            active = false
+        id  = json["ID"] as! String
+        
+        name =  json["Names"] as! String
+        ports =  json["Ports"] as! String
+        for label in (json["Labels"] as! String).components(separatedBy: ",") {
+            let label_components = label.components(separatedBy: "=")
+            if label_components.count == 2 {
+                labels[label_components[0]] = label_components[1]
+            }
+        }
+        
+        if let project_name = labels["com.docker.compose.project"] {
+            compose_project = project_name as String
         } else {
+            compose_project = "other"
+        }
+        
+        
+        if (json["Status"] as! String).contains("Up") {
             active = true
+        } else {
+            active = false
         }
     }
 }
