@@ -10,6 +10,9 @@ import Foundation
 
 class DockerAPI {
     
+    static let DEFAULT_DOCKER_PATH = "/usr/local/bin/docker"
+
+    
     
     func version(success: (_: String) -> Void){
         containerCommand(command: ["version"]) { (output: [String]) in
@@ -61,9 +64,12 @@ class DockerAPI {
     
     func containerCommand(command: [String], success: (_: [String]) -> Void) {
         
+        let defaults = UserDefaults.standard
+        let path = defaults.string(forKey: "dockerPath") ?? DockerAPI.DEFAULT_DOCKER_PATH
+
         let task = Process()
         
-        task.launchPath = "/usr/local/bin/docker"
+        task.launchPath = path
         task.arguments = command
         
         let pipe = Pipe()

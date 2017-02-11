@@ -9,12 +9,13 @@
 import Cocoa
 import AppKit
 
-class StatusMenuController: NSObject {
+class StatusMenuController: NSObject, PreferencesWindowDelegate {
     
     @IBOutlet weak var statusMenu: NSMenu!
     
-    
+    var preferencesWindow: PreferencesWindow!
     let docker = DockerAPI()
+    
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
@@ -24,13 +25,21 @@ class StatusMenuController: NSObject {
         statusItem.menu = statusMenu
         dockerVersion()
         showContainers()
-        
+        preferencesWindow = PreferencesWindow()
+        preferencesWindow.delegate = self
     }
+    
+    func preferencesDidUpdate() {
+        showContainers()
+    }
+    
     
     func dockerVersion() -> Void {
         docker.version() { (version: String) in
             if let dockerVersion = self.statusMenu.item(withTitle: "DockerVersion") {
                 dockerVersion.title = "Using Docker " + version
+                dockerVersion.isEnabled = false
+                dockerVersion.target = nil;
             }
         }
     }
@@ -40,7 +49,7 @@ class StatusMenuController: NSObject {
             let groupedContainers = containers.categorise { $0.compose_project as String! }
             for (project, containers) in groupedContainers {
                 
-                let projectName = NSAttributedString(string: project, attributes: [ NSForegroundColorAttributeName: NSColor.textColor ])
+                let projectName = NSAttributedString(string: project, attributes: [NSFontAttributeName: NSFont.systemFont(ofSize: NSFont.systemFontSize())])
                 let projectItem : NSMenuItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
                 
                 projectItem.attributedTitle = projectName
@@ -55,7 +64,7 @@ class StatusMenuController: NSObject {
                     print(project, container.id)
                     
                     var attributes : [String : Any] = [
-                        NSFontAttributeName : NSFont.systemFont(ofSize: 24.0),
+                        NSFontAttributeName : NSFont.systemFont(ofSize: 22),
                         NSForegroundColorAttributeName : NSColor.red
                     ]
                     
@@ -67,7 +76,11 @@ class StatusMenuController: NSObject {
                     
                     
                     
-                    let name = NSAttributedString(string: " " + container.name, attributes: [ NSForegroundColorAttributeName: NSColor.textColor ])
+                    let name = NSAttributedString(string: " " + container.name, attributes: [
+                        NSFontAttributeName : NSFont.systemFont(ofSize: 18),
+                        NSForegroundColorAttributeName: NSColor.textColor
+                        ]
+                    )
                     let row = NSMutableAttributedString()
                     
                     row.append(dot)
@@ -88,9 +101,12 @@ class StatusMenuController: NSObject {
         print("start")
     }
     
+    @IBAction func preferencesClicked(_ sender: NSMenuItem) {
+        preferencesWindow.showWindow(nil)
+    }
     
     @IBAction func updateClicked(_ sender: NSMenuItem) {
-        dockerVersion()
+        showContainers()
     }
     
     @IBAction func quitClicked(_ sender: NSMenuItem) {

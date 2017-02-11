@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -13,12 +12,12 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="BSI-y2-KIW" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="WeatherBar" customModuleProvider="target">
+        <customObject id="BSI-y2-KIW" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="DockerBar" customModuleProvider="target">
             <connections>
                 <outlet property="statusMenu" destination="P8r-Rg-sLY" id="LcX-7c-TaS"/>
             </connections>
         </customObject>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="WeatherBar" customModuleProvider="target"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DockerBar" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="P8r-Rg-sLY" userLabel="statusMenu">
             <items>
@@ -36,6 +35,12 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="VYv-vB-RYR"/>
+                <menuItem title="Preferences" id="xFl-vN-8c5">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="preferencesClicked:" target="BSI-y2-KIW" id="3m1-Cw-qRi"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" keyEquivalent="q" id="CuI-J5-xql">
                     <connections>
                         <action selector="quitClicked:" target="BSI-y2-KIW" id="0Xn-dc-DNR"/>
@@ -45,36 +50,7 @@
             <connections>
                 <outlet property="delegate" destination="CuI-J5-xql" id="yak-zk-wBb"/>
             </connections>
-            <point key="canvasLocation" x="35" y="-151"/>
+            <point key="canvasLocation" x="-181" y="-332"/>
         </menu>
-        <customView id="4Ns-F6-hfD" customClass="ContainerView">
-            <rect key="frame" x="0.0" y="0.0" width="311" height="28"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3b-jO-l2k">
-                    <rect key="frame" x="137" y="5" width="102" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Container Name" id="rls-lo-9Ca">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ape-mt-Syz">
-                    <rect key="frame" x="27" y="5" width="11" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="•" id="Wzj-cT-3Aj">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
-            </subviews>
-            <connections>
-                <outlet property="containerSymbol" destination="Ape-mt-Syz" id="0IL-7F-aeR"/>
-                <outlet property="containerText" destination="x3b-jO-l2k" id="Wb9-9C-Ot8"/>
-            </connections>
-            <point key="canvasLocation" x="-161.5" y="-23"/>
-        </customView>
     </objects>
 </document>
