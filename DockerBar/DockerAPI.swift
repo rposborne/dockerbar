@@ -12,8 +12,6 @@ import Foundation
 class DockerAPI {
     
     static let DEFAULT_DOCKER_PATH = "/usr/local/bin/docker"
-
-    
     
     func version(success: (_: String) -> Void){
         containerCommand(command: ["version"]) { (output: [String]) in

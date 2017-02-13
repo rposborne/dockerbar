@@ -15,21 +15,25 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
     
     var preferencesWindow: PreferencesWindow!
     let docker = DockerAPI()
-
+    
+//    var projectViews = [String: NSMenuItem]()
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
     override func awakeFromNib() {
         let icon = NSImage(named: "Icon")
+        
+        let appearance = UserDefaults.standard.string(forKey:"AppleInterfaceStyle") ?? "Light"
+        if appearance == "Dark" {
+            icon?.isTemplate = true
+        }
+        
         statusItem.image = icon
         statusItem.menu = statusMenu
         dockerVersion()
         showContainers()
         preferencesWindow = PreferencesWindow()
         preferencesWindow.delegate = self
-        
-
-
     }
     
     func preferencesDidUpdate() {
@@ -52,58 +56,66 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
             let groupedContainers = containers.categorise { $0.compose_project as String! }
             for (project, containers) in groupedContainers {
                 
-                let projectName = NSAttributedString(string: project, attributes: [NSFontAttributeName: NSFont.systemFont(ofSize: NSFont.systemFontSize())])
-                let projectItem : NSMenuItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
                 
-                projectItem.attributedTitle = projectName
-                projectItem.isEnabled = true
-                let projectMenu = NSMenu(title: "Edit")
-                self.statusMenu.setSubmenu(projectMenu, for: projectItem)
-                statusItem.menu?.insertItem(projectItem, at: 3)
-                
-                
-                
-                for container in containers.reversed() {
-//                    print(project, container.id)
-                    
-                    var attributes : [String : Any] = [
-                        NSFontAttributeName : NSFont.systemFont(ofSize: 22),
-                        NSForegroundColorAttributeName : NSColor.red
-                    ]
-                    
-                    if (container.active) {
-                        attributes[ NSForegroundColorAttributeName] =  NSColor.green
-                    }
-                    
-                    let dot = NSAttributedString(string: "•", attributes: attributes)
-                    
-                    
-                    
-                    let name = NSAttributedString(string: " " + container.name, attributes: [
-                        NSFontAttributeName : NSFont.systemFont(ofSize: 18),
-                        NSForegroundColorAttributeName: NSColor.textColor
-                        ]
-                    )
-                    let row = NSMutableAttributedString()
-                    
-                    row.append(dot)
-                    row.append(name)
-                    
-                    let newItem : NSMenuItem = NSMenuItem(title: "", action: #selector(startContainer(_:)), keyEquivalent: "")
-                    newItem.attributedTitle = row
-                    newItem.toolTip = container.id
-                    newItem.target = self
-                    newItem.representedObject = container
-                    
-                    projectItem.submenu?.insertItem(newItem, at: 0)
+                // Remove existing project groupings and all of children
+                if let projectView = self.statusMenu.item(withTitle: project) {
+                    self.statusMenu.removeItem(projectView)
                 }
+                
+                
+                buildProjectView(project: project, containers: containers)
+
             }
+        }
+    }
+    
+    func buildProjectView(project: String, containers: [DockerContainer]) -> Void {
+        let projectName = NSAttributedString(string: project, attributes: [NSFontAttributeName: NSFont.systemFont(ofSize: NSFont.systemFontSize())])
+        let projectItem : NSMenuItem = NSMenuItem(title: project, action: nil, keyEquivalent: "")
+        
+        projectItem.attributedTitle = projectName
+        projectItem.isEnabled = true
+        let projectMenu = NSMenu(title: "Edit")
+        self.statusMenu.setSubmenu(projectMenu, for: projectItem)
+        statusItem.menu?.insertItem(projectItem, at: 3)
+        
+        for container in containers.reversed() {
+            
+            var attributes : [String : Any] = [
+                NSFontAttributeName : NSFont.systemFont(ofSize: 22),
+                NSForegroundColorAttributeName : NSColor.red
+            ]
+            
+            if (container.active) {
+                attributes[ NSForegroundColorAttributeName] =  NSColor.green
+            }
+            
+            let dot = NSAttributedString(string: "•", attributes: attributes)
+            
+            let name = NSAttributedString(string: " " + container.name, attributes: [
+                NSFontAttributeName : NSFont.systemFont(ofSize: 18),
+                NSForegroundColorAttributeName: NSColor.textColor
+                ]
+            )
+            let row = NSMutableAttributedString()
+            
+            row.append(dot)
+            row.append(name)
+            
+            
+            let newItem : NSMenuItem = NSMenuItem(title: "", action: #selector(startContainer(_:)), keyEquivalent: "")
+            newItem.attributedTitle = row
+            newItem.toolTip = container.id
+            newItem.target = self
+            newItem.representedObject = container
+            
+            projectItem.submenu?.insertItem(newItem, at: 0)
         }
     }
     
     func startContainer(_ sender: NSMenuItem) {
         let container = sender.representedObject as! DockerContainer
-        docker.containerCommand(command: ["start", container.id]) {_ in 
+        docker.containerCommand(command: ["start", container.id]) {_ in
             
         }
     }
