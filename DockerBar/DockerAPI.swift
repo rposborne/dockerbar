@@ -1,3 +1,4 @@
+
 //
 //  DockerAPI.swift
 //  DockerBar
@@ -62,6 +63,10 @@ class DockerAPI {
         }
     }
     
+    func startContainer(container: DockerContainer) -> Void{
+        
+    }
+    
     func containerCommand(command: [String], success: (_: [String]) -> Void) {
         
         let defaults = UserDefaults.standard
@@ -94,5 +99,6 @@ class DockerAPI {
         stdOut = stdOut.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         success( stdOut.components(separatedBy: .controlCharacters) )
     }
+
 }
 

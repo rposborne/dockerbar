@@ -11,14 +11,17 @@ import Cocoa
 
 class ContainerView: NSView {
     
-    @IBOutlet weak var containerSymbol: NSTextField!
+    @IBOutlet weak var containerSymbol = NSTextField()
     
-    @IBOutlet weak var containerText: NSTextField!
+    @IBOutlet weak var containerText =  NSTextField()
     
     func update(container: DockerContainer) -> Void {
         // do UI updates on the main thread
+//        print(container.name)
+//        self.containerText.stringValue = "hi"
         DispatchQueue.main.async {
-            self.containerText.stringValue = container.name
+            self.containerSymbol?.stringValue = "other"
+            self.containerText?.stringValue = "hi"
         }
     }
 }
