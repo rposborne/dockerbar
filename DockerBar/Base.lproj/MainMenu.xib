@@ -26,6 +26,12 @@
                         <action selector="updateClicked:" target="BSI-y2-KIW" id="ee2-tm-mp0"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Restart Docker" alternate="YES" keyEquivalent="r" id="61z-Gc-Z7y">
+                    <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                    <connections>
+                        <action selector="updateClicked:" target="BSI-y2-KIW" id="XKZ-YN-lJz"/>
+                    </connections>
+                </menuItem>
                 <menuItem isSeparatorItem="YES" id="C4b-LP-Kbv"/>
                 <menuItem title="DockerVersion" enabled="NO" id="gkg-Ur-9Xp">
                     <attributedString key="attributedTitle"/>
@@ -50,7 +56,7 @@
             <connections>
                 <outlet property="delegate" destination="CuI-J5-xql" id="yak-zk-wBb"/>
             </connections>
-            <point key="canvasLocation" x="-181" y="-332"/>
+            <point key="canvasLocation" x="-629.5" y="-326.5"/>
         </menu>
     </objects>
 </document>

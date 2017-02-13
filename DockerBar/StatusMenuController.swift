@@ -10,12 +10,12 @@ import Cocoa
 import AppKit
 
 class StatusMenuController: NSObject, PreferencesWindowDelegate {
-    
+
     @IBOutlet weak var statusMenu: NSMenu!
     
     var preferencesWindow: PreferencesWindow!
     let docker = DockerAPI()
-    
+
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
@@ -27,6 +27,9 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
         showContainers()
         preferencesWindow = PreferencesWindow()
         preferencesWindow.delegate = self
+        
+
+
     }
     
     func preferencesDidUpdate() {
@@ -61,7 +64,7 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
                 
                 
                 for container in containers.reversed() {
-                    print(project, container.id)
+//                    print(project, container.id)
                     
                     var attributes : [String : Any] = [
                         NSFontAttributeName : NSFont.systemFont(ofSize: 22),
@@ -86,10 +89,11 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
                     row.append(dot)
                     row.append(name)
                     
-                    let newItem : NSMenuItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
+                    let newItem : NSMenuItem = NSMenuItem(title: "", action: #selector(startContainer(_:)), keyEquivalent: "")
                     newItem.attributedTitle = row
-                    newItem.isEnabled = true
                     newItem.toolTip = container.id
+                    newItem.target = self
+                    newItem.representedObject = container
                     
                     projectItem.submenu?.insertItem(newItem, at: 0)
                 }
@@ -98,7 +102,10 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
     }
     
     func startContainer(_ sender: NSMenuItem) {
-        print("start")
+        let container = sender.representedObject as! DockerContainer
+        docker.containerCommand(command: ["start", container.id]) {_ in 
+            
+        }
     }
     
     @IBAction func preferencesClicked(_ sender: NSMenuItem) {
