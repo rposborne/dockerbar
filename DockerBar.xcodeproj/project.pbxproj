@@ -10,6 +10,13 @@
 		E50F46561E4EBF3D0075AD7F /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */; };
 		E50F46571E4EBF3D0075AD7F /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */; };
 		E50F46591E4EC1980075AD7F /* ContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F46581E4EC1980075AD7F /* ContainerView.xib */; };
+		E51BFD911E5545C800A2CD23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E51BFD901E5545C800A2CD23 /* AppDelegate.m */; };
+		E51BFD941E5545C800A2CD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E51BFD931E5545C800A2CD23 /* main.m */; };
+		E51BFD961E5545C800A2CD23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51BFD951E5545C800A2CD23 /* Assets.xcassets */; };
+		E51BFD991E5545C800A2CD23 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51BFD971E5545C800A2CD23 /* MainMenu.xib */; };
+		E51BFDA01E5545ED00A2CD23 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */; };
+		E51BFDA11E5545F400A2CD23 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */; };
+		E51BFDA51E55465500A2CD23 /* DockerBarHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E56DC2801E4A263C00D9D2D9 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */; };
 		E56DC2821E4A27F700D9D2D9 /* DockerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC2811E4A27F700D9D2D9 /* DockerContainer.swift */; };
 		E5CDC8421E4951C600DD297F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDC8411E4951C600DD297F /* AppDelegate.swift */; };
@@ -39,10 +46,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E51BFDA41E55464800A2CD23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 7;
+			files = (
+				E51BFDA51E55465500A2CD23 /* DockerBarHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesWindow.swift; path = ../PreferencesWindow.swift; sourceTree = "<group>"; };
 		E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesWindow.xib; path = ../PreferencesWindow.xib; sourceTree = "<group>"; };
 		E50F46581E4EC1980075AD7F /* ContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerView.xib; sourceTree = "<group>"; };
+		E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockerBarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51BFD8F1E5545C800A2CD23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E51BFD901E5545C800A2CD23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E51BFD931E5545C800A2CD23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E51BFD951E5545C800A2CD23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E51BFD981E5545C800A2CD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E51BFD9A1E5545C800A2CD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		E56DC2811E4A27F700D9D2D9 /* DockerContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DockerContainer.swift; sourceTree = "<group>"; };
 		E5CDC83E1E4951C600DD297F /* DockerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +90,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E51BFD8A1E5545C700A2CD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51BFDA11E5545F400A2CD23 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5CDC83B1E4951C600DD297F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51BFDA01E5545ED00A2CD23 /* ServiceManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +123,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51BFD8E1E5545C800A2CD23 /* DockerBarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E51BFD8F1E5545C800A2CD23 /* AppDelegate.h */,
+				E51BFD901E5545C800A2CD23 /* AppDelegate.m */,
+				E51BFD951E5545C800A2CD23 /* Assets.xcassets */,
+				E51BFD971E5545C800A2CD23 /* MainMenu.xib */,
+				E51BFD9A1E5545C800A2CD23 /* Info.plist */,
+				E51BFD921E5545C800A2CD23 /* Supporting Files */,
+			);
+			path = DockerBarHelper;
+			sourceTree = "<group>";
+		};
+		E51BFD921E5545C800A2CD23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E51BFD931E5545C800A2CD23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E51BFD9E1E5545ED00A2CD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5CDC8351E4951C600DD297F = {
 			isa = PBXGroup;
 			children = (
 				E5CDC8401E4951C600DD297F /* DockerBar */,
 				E5CDC8501E4951C600DD297F /* DockerBarTests */,
 				E5CDC85B1E4951C600DD297F /* DockerBarUITests */,
+				E51BFD8E1E5545C800A2CD23 /* DockerBarHelper */,
 				E5CDC83F1E4951C600DD297F /* Products */,
+				E51BFD9E1E5545ED00A2CD23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +170,7 @@
 				E5CDC83E1E4951C600DD297F /* DockerBar.app */,
 				E5CDC84D1E4951C600DD297F /* DockerBarTests.xctest */,
 				E5CDC8581E4951C600DD297F /* DockerBarUITests.xctest */,
+				E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +215,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E51BFD8C1E5545C700A2CD23 /* DockerBarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E51BFD9B1E5545C800A2CD23 /* Build configuration list for PBXNativeTarget "DockerBarHelper" */;
+			buildPhases = (
+				E51BFD891E5545C700A2CD23 /* Sources */,
+				E51BFD8A1E5545C700A2CD23 /* Frameworks */,
+				E51BFD8B1E5545C700A2CD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockerBarHelper;
+			productName = DockerBarHelper;
+			productReference = E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E5CDC83D1E4951C600DD297F /* DockerBar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5CDC8611E4951C600DD297F /* Build configuration list for PBXNativeTarget "DockerBar" */;
@@ -153,6 +239,7 @@
 				E5CDC83A1E4951C600DD297F /* Sources */,
 				E5CDC83B1E4951C600DD297F /* Frameworks */,
 				E5CDC83C1E4951C600DD297F /* Resources */,
+				E51BFDA41E55464800A2CD23 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -209,6 +296,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Russell Osborne";
 				TargetAttributes = {
+					E51BFD8C1E5545C700A2CD23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 747UW3DPNK;
+						ProvisioningStyle = Automatic;
+					};
 					E5CDC83D1E4951C600DD297F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 747UW3DPNK;
@@ -242,11 +334,21 @@
 				E5CDC83D1E4951C600DD297F /* DockerBar */,
 				E5CDC84C1E4951C600DD297F /* DockerBarTests */,
 				E5CDC8571E4951C600DD297F /* DockerBarUITests */,
+				E51BFD8C1E5545C700A2CD23 /* DockerBarHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E51BFD8B1E5545C700A2CD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51BFD961E5545C800A2CD23 /* Assets.xcassets in Resources */,
+				E51BFD991E5545C800A2CD23 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5CDC83C1E4951C600DD297F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +377,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E51BFD891E5545C700A2CD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51BFD941E5545C800A2CD23 /* main.m in Sources */,
+				E51BFD911E5545C800A2CD23 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5CDC83A1E4951C600DD297F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,6 +432,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E51BFD971E5545C800A2CD23 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E51BFD981E5545C800A2CD23 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		E5CDC8451E4951C600DD297F /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,6 +451,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E51BFD9C1E5545C800A2CD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 747UW3DPNK;
+				INFOPLIST_FILE = DockerBarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.burningpony.DockerBarHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E51BFD9D1E5545C800A2CD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 747UW3DPNK;
+				INFOPLIST_FILE = DockerBarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.burningpony.DockerBarHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		E5CDC85F1E4951C600DD297F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,6 +662,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E51BFD9B1E5545C800A2CD23 /* Build configuration list for PBXNativeTarget "DockerBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51BFD9C1E5545C800A2CD23 /* Debug */,
+				E51BFD9D1E5545C800A2CD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E5CDC8391E4951C600DD297F /* Build configuration list for PBXProject "DockerBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

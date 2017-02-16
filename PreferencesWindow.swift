@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import ServiceManagement
 
 protocol PreferencesWindowDelegate {
     func preferencesDidUpdate()
@@ -14,8 +15,19 @@ protocol PreferencesWindowDelegate {
 
 class PreferencesWindow: NSWindowController, NSWindowDelegate {
     
+    @IBOutlet weak var launchOnLogin: NSButton!
     var delegate: PreferencesWindowDelegate?
 
+    @IBAction func toggleLaunchOnLogin(_ sender: NSButtonCell) {
+        
+        let defaults = UserDefaults.standard
+        defaults.setValue(sender.state, forKey: "startDockerBarOnLogin")
+        
+        if (!SMLoginItemSetEnabled("com.burningpony.DockerBarHelper" as CFString, sender.state == 1)) {
+            NSLog("Login Item Was Not Successful");
+        }
+        
+    }
     @IBOutlet weak var dockerPathTextField: NSTextField!
     
     override func windowDidLoad() {
@@ -28,6 +40,8 @@ class PreferencesWindow: NSWindowController, NSWindowDelegate {
         let defaults = UserDefaults.standard
         let dockerPath = defaults.string(forKey: "dockerPath") ?? DockerAPI.DEFAULT_DOCKER_PATH
         dockerPathTextField.stringValue = dockerPath
+        
+        launchOnLogin.state = defaults.integer(forKey: "startDockerBarOnLogin")
     }
     
     override var windowNibName : String! {

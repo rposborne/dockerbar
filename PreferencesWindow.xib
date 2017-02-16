@@ -9,6 +9,7 @@
         <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindow" customModule="DockerBar" customModuleProvider="target">
             <connections>
                 <outlet property="dockerPathTextField" destination="d2b-WV-JYF" id="F4V-2D-4Jh"/>
+                <outlet property="launchOnLogin" destination="8jN-8T-ljh" id="vaK-xu-r1o"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -17,14 +18,14 @@
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="106"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
             <view key="contentView" wantsLayer="YES" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="106"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cc-aA-pMp">
-                        <rect key="frame" x="20" y="233" width="78" height="17"/>
+                        <rect key="frame" x="20" y="69" width="78" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Docker Path" id="mUT-Xw-iab">
                             <font key="font" metaFont="system"/>
@@ -33,7 +34,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2b-WV-JYF">
-                        <rect key="frame" x="119" y="230" width="341" height="22"/>
+                        <rect key="frame" x="119" y="66" width="341" height="22"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="dockerPath" placeholderString="/usr/local/bin/docker" drawsBackground="YES" id="ROO-Jw-gjT">
                             <font key="font" metaFont="system"/>
@@ -41,11 +42,23 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8jN-8T-ljh">
+                        <rect key="frame" x="117" y="28" width="189" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Launch DockerBar on Login" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="EGK-Xo-dZF">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <connections>
+                                <action selector="toggleLaunchOnLogin:" target="-2" id="McQ-aU-GhV"/>
+                            </connections>
+                        </buttonCell>
+                    </button>
                 </subviews>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
+            <point key="canvasLocation" x="46" y="59"/>
         </window>
     </objects>
 </document>

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DockerBarHelper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WeatherBar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E51BFD651E5542AF00A2CD23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E51BFD771E55455100A2CD23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E51BFD8C1E5545C700A2CD23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E5CDC83D1E4951C600DD297F</key>
 		<dict>
 			<key>primary</key>
