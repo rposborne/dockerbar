@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2DD8A2F93E178850ECF8CB /* Pods_DockerBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158D4708B27D40D557AA0384 /* Pods_DockerBarTests.framework */; };
+		5951A3FFF8C5ACD716E67A4F /* Pods_DockerBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D9856A03289B1453E33F0 /* Pods_DockerBar.framework */; };
+		682EDEADA7C08A8BF6E334EA /* Pods_DockerBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2DF4A2960927EA3A3003F0 /* Pods_DockerBarUITests.framework */; };
 		E50F46561E4EBF3D0075AD7F /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */; };
 		E50F46571E4EBF3D0075AD7F /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */; };
 		E50F46591E4EC1980075AD7F /* ContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F46581E4EC1980075AD7F /* ContainerView.xib */; };
@@ -27,6 +30,7 @@
 		E5CDC86B1E4975E900DD297F /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDC86A1E4975E900DD297F /* StatusMenuController.swift */; };
 		E5CDC86E1E497A5A00DD297F /* DockerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDC86D1E497A5A00DD297F /* DockerAPI.swift */; };
 		E5CDC8701E4A1C3C00DD297F /* RegexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDC86F1E4A1C3C00DD297F /* RegexExtension.swift */; };
+		F73ABB6668CA706EFB7C7718 /* Pods_DockerBarHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465E288DCE156353C1F283EA /* Pods_DockerBarHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		158D4708B27D40D557AA0384 /* Pods_DockerBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DockerBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		465E288DCE156353C1F283EA /* Pods_DockerBarHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DockerBarHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6185659589652BACEAB965 /* Pods-DockerBarHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarHelper/Pods-DockerBarHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		8B67F1A9A6E302E3449DB410 /* Pods-DockerBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBar/Pods-DockerBar.debug.xcconfig"; sourceTree = "<group>"; };
+		929733CCCDBD84E9A364348C /* Pods-DockerBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarUITests/Pods-DockerBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97C5EAE6B9663D9E18EFC7A9 /* Pods-DockerBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A54D9856A03289B1453E33F0 /* Pods_DockerBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DockerBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64BA147957A3C78C9272053 /* Pods-DockerBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBar/Pods-DockerBar.release.xcconfig"; sourceTree = "<group>"; };
+		C2EB748DEC1EA39050D4627A /* Pods-DockerBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests.release.xcconfig"; sourceTree = "<group>"; };
 		E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesWindow.swift; path = ../PreferencesWindow.swift; sourceTree = "<group>"; };
 		E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesWindow.xib; path = ../PreferencesWindow.xib; sourceTree = "<group>"; };
 		E50F46581E4EC1980075AD7F /* ContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerView.xib; sourceTree = "<group>"; };
@@ -87,6 +100,9 @@
 		E5CDC86A1E4975E900DD297F /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		E5CDC86D1E497A5A00DD297F /* DockerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DockerAPI.swift; sourceTree = "<group>"; };
 		E5CDC86F1E4A1C3C00DD297F /* RegexExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexExtension.swift; sourceTree = "<group>"; };
+		ED2DF4A2960927EA3A3003F0 /* Pods_DockerBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DockerBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7178212A28F4A525A07261F /* Pods-DockerBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarUITests/Pods-DockerBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE87B83AB3296BCCEC047AC7 /* Pods-DockerBarHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarHelper/Pods-DockerBarHelper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51BFDA11E5545F400A2CD23 /* ServiceManagement.framework in Frameworks */,
+				F73ABB6668CA706EFB7C7718 /* Pods_DockerBarHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51BFDA01E5545ED00A2CD23 /* ServiceManagement.framework in Frameworks */,
+				5951A3FFF8C5ACD716E67A4F /* Pods_DockerBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2DD8A2F93E178850ECF8CB /* Pods_DockerBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,12 +136,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682EDEADA7C08A8BF6E334EA /* Pods_DockerBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CFFADF34A2BC694102544CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B67F1A9A6E302E3449DB410 /* Pods-DockerBar.debug.xcconfig */,
+				A64BA147957A3C78C9272053 /* Pods-DockerBar.release.xcconfig */,
+				7F6185659589652BACEAB965 /* Pods-DockerBarHelper.debug.xcconfig */,
+				FE87B83AB3296BCCEC047AC7 /* Pods-DockerBarHelper.release.xcconfig */,
+				97C5EAE6B9663D9E18EFC7A9 /* Pods-DockerBarTests.debug.xcconfig */,
+				C2EB748DEC1EA39050D4627A /* Pods-DockerBarTests.release.xcconfig */,
+				F7178212A28F4A525A07261F /* Pods-DockerBarUITests.debug.xcconfig */,
+				929733CCCDBD84E9A364348C /* Pods-DockerBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E51BFD8E1E5545C800A2CD23 /* DockerBarHelper */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +183,10 @@
 			isa = PBXGroup;
 			children = (
 				E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */,
+				A54D9856A03289B1453E33F0 /* Pods_DockerBar.framework */,
+				465E288DCE156353C1F283EA /* Pods_DockerBarHelper.framework */,
+				158D4708B27D40D557AA0384 /* Pods_DockerBarTests.framework */,
+				ED2DF4A2960927EA3A3003F0 /* Pods_DockerBarUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +200,7 @@
 				E51BFD8E1E5545C800A2CD23 /* DockerBarHelper */,
 				E5CDC83F1E4951C600DD297F /* Products */,
 				E51BFD9E1E5545ED00A2CD23 /* Frameworks */,
+				1CFFADF34A2BC694102544CE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E51BFD9B1E5545C800A2CD23 /* Build configuration list for PBXNativeTarget "DockerBarHelper" */;
 			buildPhases = (
+				9371FCA57BA21061F2D262F3 /* [CP] Check Pods Manifest.lock */,
 				E51BFD891E5545C700A2CD23 /* Sources */,
 				E51BFD8A1E5545C700A2CD23 /* Frameworks */,
 				E51BFD8B1E5545C700A2CD23 /* Resources */,
+				8348BB5E3BD462124CCFE7C6 /* [CP] Embed Pods Frameworks */,
+				4383A8A9727CEDEF3F8FBC72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,10 +279,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5CDC8611E4951C600DD297F /* Build configuration list for PBXNativeTarget "DockerBar" */;
 			buildPhases = (
+				49E9868F7ADB4776D3CC97B9 /* [CP] Check Pods Manifest.lock */,
 				E5CDC83A1E4951C600DD297F /* Sources */,
 				E5CDC83B1E4951C600DD297F /* Frameworks */,
 				E5CDC83C1E4951C600DD297F /* Resources */,
 				E51BFDA41E55464800A2CD23 /* CopyFiles */,
+				8E34BFF61E3F9F2288490281 /* [CP] Embed Pods Frameworks */,
+				8EEBAD310CDCDBE0560F8EA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5CDC8641E4951C600DD297F /* Build configuration list for PBXNativeTarget "DockerBarTests" */;
 			buildPhases = (
+				0948B97B170754E34CAAD30F /* [CP] Check Pods Manifest.lock */,
 				E5CDC8491E4951C600DD297F /* Sources */,
 				E5CDC84A1E4951C600DD297F /* Frameworks */,
 				E5CDC84B1E4951C600DD297F /* Resources */,
+				1F8D189ACBB63CCC8CC134E4 /* [CP] Embed Pods Frameworks */,
+				C85B544DD1D810662500E05C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5CDC8671E4951C600DD297F /* Build configuration list for PBXNativeTarget "DockerBarUITests" */;
 			buildPhases = (
+				68DB0BC15B3BCB340C974947 /* [CP] Check Pods Manifest.lock */,
 				E5CDC8541E4951C600DD297F /* Sources */,
 				E5CDC8551E4951C600DD297F /* Frameworks */,
 				E5CDC8561E4951C600DD297F /* Resources */,
+				D43C052F45AE0825E3169A9F /* [CP] Embed Pods Frameworks */,
+				3E87B79E45D5AB66B19500F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,6 +428,189 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0948B97B170754E34CAAD30F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F8D189ACBB63CCC8CC134E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E87B79E45D5AB66B19500F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBarUITests/Pods-DockerBarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4383A8A9727CEDEF3F8FBC72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBarHelper/Pods-DockerBarHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E9868F7ADB4776D3CC97B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68DB0BC15B3BCB340C974947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8348BB5E3BD462124CCFE7C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBarHelper/Pods-DockerBarHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E34BFF61E3F9F2288490281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBar/Pods-DockerBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEBAD310CDCDBE0560F8EA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBar/Pods-DockerBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9371FCA57BA21061F2D262F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85B544DD1D810662500E05C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43C052F45AE0825E3169A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DockerBarUITests/Pods-DockerBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E51BFD891E5545C700A2CD23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -453,6 +688,7 @@
 /* Begin XCBuildConfiguration section */
 		E51BFD9C1E5545C800A2CD23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6185659589652BACEAB965 /* Pods-DockerBarHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -468,6 +704,7 @@
 		};
 		E51BFD9D1E5545C800A2CD23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE87B83AB3296BCCEC047AC7 /* Pods-DockerBarHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -573,6 +810,7 @@
 		};
 		E5CDC8621E4951C600DD297F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B67F1A9A6E302E3449DB410 /* Pods-DockerBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -588,6 +826,7 @@
 		};
 		E5CDC8631E4951C600DD297F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64BA147957A3C78C9272053 /* Pods-DockerBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -603,6 +842,7 @@
 		};
 		E5CDC8651E4951C600DD297F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C5EAE6B9663D9E18EFC7A9 /* Pods-DockerBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -618,6 +858,7 @@
 		};
 		E5CDC8661E4951C600DD297F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EB748DEC1EA39050D4627A /* Pods-DockerBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -633,6 +874,7 @@
 		};
 		E5CDC8681E4951C600DD297F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7178212A28F4A525A07261F /* Pods-DockerBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -647,6 +889,7 @@
 		};
 		E5CDC8691E4951C600DD297F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929733CCCDBD84E9A364348C /* Pods-DockerBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;

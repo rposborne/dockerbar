@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009056740DA4A659A09C2B2D86B3B5A0 /* Pods-DockerBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7337391CA0409BEB0B9FB770E1F69 /* Pods-DockerBar-dummy.m */; };
+		0C6B2D9010F5DEDBE73E0A330E340599 /* Pods-DockerBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8402B3B788BFA3B5AAADF32D7D8DAE /* Pods-DockerBarUITests-dummy.m */; };
+		16DB8C90145CC4A1F4634EA6F1CC0925 /* Pods-DockerBarHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727743811957A72615D03E8B0C108663 /* Pods-DockerBarHelper-dummy.m */; };
+		5BFA69CA7311FC20353E7C03AEE195DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		5DC160CAC84D12FB1FFF007160996C82 /* Pods-DockerBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B88661664707D39F9BD85B12CC47A1 /* Pods-DockerBarTests-dummy.m */; };
+		75CB3E2BF7622D98F31C15A12A315D50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		7E6E9D31C527EC775A76B1D133FFD49B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		84D0A64F6C9FA3B4AF54D287E3C25A8F /* Pods-DockerBarHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F25507C8AEB21F0972F866392943D5 /* Pods-DockerBarHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		980685C094B36104E781B0D4E4976EE8 /* Pods-DockerBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A41C5D5DDCD4C08618D6A12899137596 /* Pods-DockerBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE2A3D52E26ECCDB0F8506F24E1A036 /* Pods-DockerBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A9E027F474DAC35754E63D9F3C2176 /* Pods-DockerBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E93746115B754064414107A3302173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		E253C6BC71390AC7C78EF1DDE26C2DF9 /* Pods-DockerBarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63106D084EF0B283C8EDBCA50B51457E /* Pods-DockerBarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05436BE1F5FDF8A0CA29A1074720947F /* Pods-DockerBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarUITests-resources.sh"; sourceTree = "<group>"; };
+		05919F0BF91E6391F1F7FFFB3E21643C /* Pods-DockerBarHelper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarHelper-acknowledgements.plist"; sourceTree = "<group>"; };
+		06ECEA0E1CCE6019AD20C2ACB931E5EB /* Pods-DockerBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13CC385CADB8DE9BEF24A24798579E32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144C0B8B874530BA1783A2BD8E9ECFC4 /* Pods-DockerBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarTests-resources.sh"; sourceTree = "<group>"; };
+		20F25507C8AEB21F0972F866392943D5 /* Pods-DockerBarHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarHelper-umbrella.h"; sourceTree = "<group>"; };
+		21A91D53500841611A3D4DA3F02FC856 /* Pods-DockerBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarTests.modulemap"; sourceTree = "<group>"; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2B8402B3B788BFA3B5AAADF32D7D8DAE /* Pods-DockerBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarUITests-dummy.m"; sourceTree = "<group>"; };
+		2F10C73F55C6349566A55BE127B4A457 /* Pods-DockerBarHelper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarHelper-frameworks.sh"; sourceTree = "<group>"; };
+		317BDD7B4C5581649DAC1AF3B308AE5A /* Pods-DockerBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4060B514CC85194F21AFE22B53DA0840 /* Pods-DockerBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarUITests-frameworks.sh"; sourceTree = "<group>"; };
+		41CAB537FED2DA9A4FF1D5590843AF66 /* Pods-DockerBarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarUITests.modulemap"; sourceTree = "<group>"; };
+		4CAF4A6E611204AF029922131E086F42 /* Pods-DockerBarHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarHelper.modulemap"; sourceTree = "<group>"; };
+		4FA9B0A44A21B6F9E93DCFC1D313D411 /* Pods-DockerBarHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		5135BB4911CCF184E108813E79AA30AD /* Pods-DockerBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53A9E027F474DAC35754E63D9F3C2176 /* Pods-DockerBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBar-umbrella.h"; sourceTree = "<group>"; };
+		5740B52B690DCA5015CB0AECDF75F75F /* Pods_DockerBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarTests.framework; path = "Pods-DockerBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9BABFE45FAB31E0D4B9CF746DD616B /* Pods_DockerBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarUITests.framework; path = "Pods-DockerBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63106D084EF0B283C8EDBCA50B51457E /* Pods-DockerBarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarUITests-umbrella.h"; sourceTree = "<group>"; };
+		6AE7337391CA0409BEB0B9FB770E1F69 /* Pods-DockerBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBar-dummy.m"; sourceTree = "<group>"; };
+		6C2DAAE6CE69BB44DA83CD95DC1DECDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727743811957A72615D03E8B0C108663 /* Pods-DockerBarHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarHelper-dummy.m"; sourceTree = "<group>"; };
+		7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarHelper.framework; path = "Pods-DockerBarHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBar.debug.xcconfig"; sourceTree = "<group>"; };
+		88F3A9E72FB34B1354E52AC4F977BA51 /* Pods-DockerBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91A8735FDCA4AE9A0E74CEE4CA4CEA89 /* Pods-DockerBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92B5A6F4527A5FD09F79BEE557EE0C7D /* Pods-DockerBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97CA84C8F50C86BE348F1901AE4D2AF7 /* Pods_DockerBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBar.framework; path = "Pods-DockerBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB6D5469C4130353DE842874E71C08F /* Pods-DockerBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BBEF0C08F86F1F64273B37F62EEC042 /* Pods-DockerBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A414136A0086AA527F54667AD581A6BF /* Pods-DockerBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A41C5D5DDCD4C08618D6A12899137596 /* Pods-DockerBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarTests-umbrella.h"; sourceTree = "<group>"; };
+		A7821DCBB729E4867B71AF5557B68FBD /* Pods-DockerBarHelper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarHelper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA784C8915E353139A76AC5516B85EAC /* Pods-DockerBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBar-resources.sh"; sourceTree = "<group>"; };
+		B03A0BFF33C721C651F4F4FBB80F3259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B674719E5E62F32ACAB3048DA32CBAAD /* Pods-DockerBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarTests-frameworks.sh"; sourceTree = "<group>"; };
+		C48F01F4035BE7B81CC5AF0FC421036B /* Pods-DockerBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		C681CE05E88ED385A8633C01FBFD812D /* Pods-DockerBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBar.modulemap"; sourceTree = "<group>"; };
+		CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBar.release.xcconfig"; sourceTree = "<group>"; };
+		D096A7BECC1504904A259002420917C9 /* Pods-DockerBarHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D133E263AB9EC094B8587FF979AC4462 /* Pods-DockerBarHelper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarHelper-resources.sh"; sourceTree = "<group>"; };
+		E6B88661664707D39F9BD85B12CC47A1 /* Pods-DockerBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarTests-dummy.m"; sourceTree = "<group>"; };
+		ED7D868209E405F6EA8E3581622D4D9D /* Pods-DockerBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBar-frameworks.sh"; sourceTree = "<group>"; };
+		F9290AB8DC25EF98C222A4BBC78723D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C54DA83450407457FBB22654394546B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E93746115B754064414107A3302173 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24835985E23F484DFCD06E46578FB901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6E9D31C527EC775A76B1D133FFD49B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60B7B22400E6BE6AE1E17B1901664AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFA69CA7311FC20353E7C03AEE195DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFD44A001946B9E72BA389A9561F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB3E2BF7622D98F31C15A12A315D50 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		17DCA54730EDF8B22C73EE89A3CB69EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D1D3E4B879A55F05C2894733A445CB /* Pods-DockerBar */,
+				EBEF47033DBD11B7B131B3C327F8C629 /* Pods-DockerBarHelper */,
+				5B11BA9BC6D3C2E67DCE189FF0A5C25B /* Pods-DockerBarTests */,
+				6D5AA04DE608A6FC237BBEBAA123E90C /* Pods-DockerBarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C068A18C5413F804A2959126093416 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B11BA9BC6D3C2E67DCE189FF0A5C25B /* Pods-DockerBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9290AB8DC25EF98C222A4BBC78723D7 /* Info.plist */,
+				21A91D53500841611A3D4DA3F02FC856 /* Pods-DockerBarTests.modulemap */,
+				5135BB4911CCF184E108813E79AA30AD /* Pods-DockerBarTests-acknowledgements.markdown */,
+				06ECEA0E1CCE6019AD20C2ACB931E5EB /* Pods-DockerBarTests-acknowledgements.plist */,
+				E6B88661664707D39F9BD85B12CC47A1 /* Pods-DockerBarTests-dummy.m */,
+				B674719E5E62F32ACAB3048DA32CBAAD /* Pods-DockerBarTests-frameworks.sh */,
+				144C0B8B874530BA1783A2BD8E9ECFC4 /* Pods-DockerBarTests-resources.sh */,
+				A41C5D5DDCD4C08618D6A12899137596 /* Pods-DockerBarTests-umbrella.h */,
+				9BBEF0C08F86F1F64273B37F62EEC042 /* Pods-DockerBarTests.debug.xcconfig */,
+				92B5A6F4527A5FD09F79BEE557EE0C7D /* Pods-DockerBarTests.release.xcconfig */,
+			);
+			name = "Pods-DockerBarTests";
+			path = "Target Support Files/Pods-DockerBarTests";
+			sourceTree = "<group>";
+		};
+		6D5AA04DE608A6FC237BBEBAA123E90C /* Pods-DockerBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13CC385CADB8DE9BEF24A24798579E32 /* Info.plist */,
+				41CAB537FED2DA9A4FF1D5590843AF66 /* Pods-DockerBarUITests.modulemap */,
+				88F3A9E72FB34B1354E52AC4F977BA51 /* Pods-DockerBarUITests-acknowledgements.markdown */,
+				A414136A0086AA527F54667AD581A6BF /* Pods-DockerBarUITests-acknowledgements.plist */,
+				2B8402B3B788BFA3B5AAADF32D7D8DAE /* Pods-DockerBarUITests-dummy.m */,
+				4060B514CC85194F21AFE22B53DA0840 /* Pods-DockerBarUITests-frameworks.sh */,
+				05436BE1F5FDF8A0CA29A1074720947F /* Pods-DockerBarUITests-resources.sh */,
+				63106D084EF0B283C8EDBCA50B51457E /* Pods-DockerBarUITests-umbrella.h */,
+				91A8735FDCA4AE9A0E74CEE4CA4CEA89 /* Pods-DockerBarUITests.debug.xcconfig */,
+				317BDD7B4C5581649DAC1AF3B308AE5A /* Pods-DockerBarUITests.release.xcconfig */,
+			);
+			name = "Pods-DockerBarUITests";
+			path = "Target Support Files/Pods-DockerBarUITests";
+			sourceTree = "<group>";
+		};
+		768BE33C79B67013EEEABD5DAEC81C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CA84C8F50C86BE348F1901AE4D2AF7 /* Pods_DockerBar.framework */,
+				7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */,
+				5740B52B690DCA5015CB0AECDF75F75F /* Pods_DockerBarTests.framework */,
+				5C9BABFE45FAB31E0D4B9CF746DD616B /* Pods_DockerBarUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				768BE33C79B67013EEEABD5DAEC81C2C /* Products */,
+				17DCA54730EDF8B22C73EE89A3CB69EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEF47033DBD11B7B131B3C327F8C629 /* Pods-DockerBarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6C2DAAE6CE69BB44DA83CD95DC1DECDE /* Info.plist */,
+				4CAF4A6E611204AF029922131E086F42 /* Pods-DockerBarHelper.modulemap */,
+				A7821DCBB729E4867B71AF5557B68FBD /* Pods-DockerBarHelper-acknowledgements.markdown */,
+				05919F0BF91E6391F1F7FFFB3E21643C /* Pods-DockerBarHelper-acknowledgements.plist */,
+				727743811957A72615D03E8B0C108663 /* Pods-DockerBarHelper-dummy.m */,
+				2F10C73F55C6349566A55BE127B4A457 /* Pods-DockerBarHelper-frameworks.sh */,
+				D133E263AB9EC094B8587FF979AC4462 /* Pods-DockerBarHelper-resources.sh */,
+				20F25507C8AEB21F0972F866392943D5 /* Pods-DockerBarHelper-umbrella.h */,
+				4FA9B0A44A21B6F9E93DCFC1D313D411 /* Pods-DockerBarHelper.debug.xcconfig */,
+				D096A7BECC1504904A259002420917C9 /* Pods-DockerBarHelper.release.xcconfig */,
+			);
+			name = "Pods-DockerBarHelper";
+			path = "Target Support Files/Pods-DockerBarHelper";
+			sourceTree = "<group>";
+		};
+		F9D1D3E4B879A55F05C2894733A445CB /* Pods-DockerBar */ = {
+			isa = PBXGroup;
+			children = (
+				B03A0BFF33C721C651F4F4FBB80F3259 /* Info.plist */,
+				C681CE05E88ED385A8633C01FBFD812D /* Pods-DockerBar.modulemap */,
+				9BB6D5469C4130353DE842874E71C08F /* Pods-DockerBar-acknowledgements.markdown */,
+				C48F01F4035BE7B81CC5AF0FC421036B /* Pods-DockerBar-acknowledgements.plist */,
+				6AE7337391CA0409BEB0B9FB770E1F69 /* Pods-DockerBar-dummy.m */,
+				ED7D868209E405F6EA8E3581622D4D9D /* Pods-DockerBar-frameworks.sh */,
+				AA784C8915E353139A76AC5516B85EAC /* Pods-DockerBar-resources.sh */,
+				53A9E027F474DAC35754E63D9F3C2176 /* Pods-DockerBar-umbrella.h */,
+				86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */,
+				CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */,
+			);
+			name = "Pods-DockerBar";
+			path = "Target Support Files/Pods-DockerBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BC622CD15262F765203CFB71DD25A68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E253C6BC71390AC7C78EF1DDE26C2DF9 /* Pods-DockerBarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BDF8BAAE8E2F2A1B50889386945FD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980685C094B36104E781B0D4E4976EE8 /* Pods-DockerBarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01534FF7F68550A6948A905292E807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0A64F6C9FA3B4AF54D287E3C25A8F /* Pods-DockerBarHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF9289199F4E0E993FFB97F0DFB4997 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE2A3D52E26ECCDB0F8506F24E1A036 /* Pods-DockerBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AFA58DD5A4136A558BF3E80F622D016 /* Pods-DockerBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9BE3992518334E0371807B9495123F /* Build configuration list for PBXNativeTarget "Pods-DockerBarTests" */;
+			buildPhases = (
+				A25AA920098C21590E1561DA56F8E152 /* Sources */,
+				ABFD44A001946B9E72BA389A9561F05F /* Frameworks */,
+				E3BDF8BAAE8E2F2A1B50889386945FD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DockerBarTests";
+			productName = "Pods-DockerBarTests";
+			productReference = 5740B52B690DCA5015CB0AECDF75F75F /* Pods_DockerBarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AF40D9C85F5E9A8340969C00E7AC8B6 /* Pods-DockerBarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EB0EC5FA801334270D18B92BE93466 /* Build configuration list for PBXNativeTarget "Pods-DockerBarHelper" */;
+			buildPhases = (
+				71CD4119BA9AB8C5C3AFBF6076BF7F25 /* Sources */,
+				0C54DA83450407457FBB22654394546B /* Frameworks */,
+				EE01534FF7F68550A6948A905292E807 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DockerBarHelper";
+			productName = "Pods-DockerBarHelper";
+			productReference = 7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0F63653E6FEE3615E79744035FDC1C6 /* Pods-DockerBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5030C133EC2073045A924F44EF578099 /* Build configuration list for PBXNativeTarget "Pods-DockerBarUITests" */;
+			buildPhases = (
+				96F4072078A648273DF5C3D09BB0D200 /* Sources */,
+				24835985E23F484DFCD06E46578FB901 /* Frameworks */,
+				2BC622CD15262F765203CFB71DD25A68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DockerBarUITests";
+			productName = "Pods-DockerBarUITests";
+			productReference = 5C9BABFE45FAB31E0D4B9CF746DD616B /* Pods_DockerBarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7DC2C92852D3D2C4642EB007BB3955 /* Pods-DockerBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2696462DA25A7831B379F997649E81E1 /* Build configuration list for PBXNativeTarget "Pods-DockerBar" */;
+			buildPhases = (
+				2B6E6ECE20B844494A31DACC53AE1B54 /* Sources */,
+				A60B7B22400E6BE6AE1E17B1901664AD /* Frameworks */,
+				EEF9289199F4E0E993FFB97F0DFB4997 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DockerBar";
+			productName = "Pods-DockerBar";
+			productReference = 97CA84C8F50C86BE348F1901AE4D2AF7 /* Pods_DockerBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 768BE33C79B67013EEEABD5DAEC81C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7DC2C92852D3D2C4642EB007BB3955 /* Pods-DockerBar */,
+				4AF40D9C85F5E9A8340969C00E7AC8B6 /* Pods-DockerBarHelper */,
+				0AFA58DD5A4136A558BF3E80F622D016 /* Pods-DockerBarTests */,
+				D0F63653E6FEE3615E79744035FDC1C6 /* Pods-DockerBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6E6ECE20B844494A31DACC53AE1B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009056740DA4A659A09C2B2D86B3B5A0 /* Pods-DockerBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CD4119BA9AB8C5C3AFBF6076BF7F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DB8C90145CC4A1F4634EA6F1CC0925 /* Pods-DockerBarHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F4072078A648273DF5C3D09BB0D200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6B2D9010F5DEDBE73E0A330E340599 /* Pods-DockerBarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25AA920098C21590E1561DA56F8E152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC160CAC84D12FB1FFF007160996C82 /* Pods-DockerBarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11FE8CFBFF1614124F2A6F5C3795EC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBar/Pods-DockerBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CF9C06D5C9BADAF4C11146F9790E57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBEF0C08F86F1F64273B37F62EEC042 /* Pods-DockerBarTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBarTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34342BBF37D3A9ED85FF2EB654934920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8418CDECDDA68427CB1D8C9522565C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D096A7BECC1504904A259002420917C9 /* Pods-DockerBarHelper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBarHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBarHelper/Pods-DockerBarHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBarHelper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC3851306C1834D605EF7ADCA4509DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B5A6F4527A5FD09F79BEE557EE0C7D /* Pods-DockerBarTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBarTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2F2B10DB14AE6B2FAA783697F032DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBar/Pods-DockerBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF8364E6F32D01F119994FC795F75312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA9B0A44A21B6F9E93DCFC1D313D411 /* Pods-DockerBarHelper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBarHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBarHelper/Pods-DockerBarHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBarHelper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE0B7BB5BFC4470A7EEFBBBDD5A17584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317BDD7B4C5581649DAC1AF3B308AE5A /* Pods-DockerBarUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBarUITests/Pods-DockerBarUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBarUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEBEF17085AD25E92AADDB1C6F87D3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A8735FDCA4AE9A0E74CEE4CA4CEA89 /* Pods-DockerBarUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBarUITests/Pods-DockerBarUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBarUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10EB0EC5FA801334270D18B92BE93466 /* Build configuration list for PBXNativeTarget "Pods-DockerBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8364E6F32D01F119994FC795F75312 /* Debug */,
+				8418CDECDDA68427CB1D8C9522565C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2696462DA25A7831B379F997649E81E1 /* Build configuration list for PBXNativeTarget "Pods-DockerBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2B10DB14AE6B2FAA783697F032DE9 /* Debug */,
+				11FE8CFBFF1614124F2A6F5C3795EC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34342BBF37D3A9ED85FF2EB654934920 /* Debug */,
+				F6FC88CB717F413199C282718D2DC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9BE3992518334E0371807B9495123F /* Build configuration list for PBXNativeTarget "Pods-DockerBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF9C06D5C9BADAF4C11146F9790E57D /* Debug */,
+				AC3851306C1834D605EF7ADCA4509DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5030C133EC2073045A924F44EF578099 /* Build configuration list for PBXNativeTarget "Pods-DockerBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBEF17085AD25E92AADDB1C6F87D3FA /* Debug */,
+				DE0B7BB5BFC4470A7EEFBBBDD5A17584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
