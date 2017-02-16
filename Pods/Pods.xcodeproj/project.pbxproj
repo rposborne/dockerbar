@@ -7,78 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009056740DA4A659A09C2B2D86B3B5A0 /* Pods-DockerBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7337391CA0409BEB0B9FB770E1F69 /* Pods-DockerBar-dummy.m */; };
+		01CFC97606CF98B03966E52421BBAA46 /* mk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF2E4AB0AD0FE07E0F15A171DE2A21 /* mk.lproj */; };
+		0842E24FFD6A9D319935CA16685BCDD6 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A5BCB3A320AA501E7BB8CC561227EFF6 /* nb.lproj */; };
+		0BA8268EF88EEF3564C90E251D12C397 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0D0F59BFF71647B8A8D374A7B39E0 /* PFMoveApplication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C6B2D9010F5DEDBE73E0A330E340599 /* Pods-DockerBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8402B3B788BFA3B5AAADF32D7D8DAE /* Pods-DockerBarUITests-dummy.m */; };
+		131095D105043E805537CF82ECE0F76C /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8340591990CD7FC36F6CCAAE1F281731 /* ca.lproj */; };
 		16DB8C90145CC4A1F4634EA6F1CC0925 /* Pods-DockerBarHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727743811957A72615D03E8B0C108663 /* Pods-DockerBarHelper-dummy.m */; };
-		5BFA69CA7311FC20353E7C03AEE195DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		1F77D4E80E4055FB3946466A5D54A8BF /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 292E5189D86C73298CE5C9C90F26BBD4 /* sv.lproj */; };
+		2306C7F49120769DB7BBB31F79550271 /* Pods-DockerBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A9E027F474DAC35754E63D9F3C2176 /* Pods-DockerBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28640BF1AC6DBECA3ACB15609DB3DD49 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 01AF6A1F33BC288CBB4C9DA9FC7FF2BA /* ru.lproj */; };
+		309286AA8678E50010EFA191961E9D33 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5ED616940A7E9974555BD20B11A61426 /* en.lproj */; };
+		403D39C264AB499697DEC812D4386B5B /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FF243899170F29CFA81E15552C351B8C /* pl.lproj */; };
 		5DC160CAC84D12FB1FFF007160996C82 /* Pods-DockerBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B88661664707D39F9BD85B12CC47A1 /* Pods-DockerBarTests-dummy.m */; };
+		6158E1443BBA8FE7470505172B6997D2 /* LetsMove-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 517F2B2C9CDDE36AFE42DAEE3DED864A /* LetsMove-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B4C4AB06D7155D823147E93730A037 /* LetsMove.h in Headers */ = {isa = PBXBuildFile; fileRef = AFFA257B2EF7C90F424B886B22714EBF /* LetsMove.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73E88D8C3B585EA17C8AEB8410A160C7 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3BF5A88B523765D7D7DC5DC2BAEBBC6E /* tr.lproj */; };
 		75CB3E2BF7622D98F31C15A12A315D50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		78745CBBA7245D6A3BDC1DFC93E2F79A /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 42BC5351E7AC3923616B1000A4E1D360 /* ko.lproj */; };
 		7E6E9D31C527EC775A76B1D133FFD49B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		8042A9BC03C48961DBE51AC3B0F211EA /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E7E5FE6A86A7C183432A9187B4317D2D /* de.lproj */; };
 		84D0A64F6C9FA3B4AF54D287E3C25A8F /* Pods-DockerBarHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F25507C8AEB21F0972F866392943D5 /* Pods-DockerBarHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869F3E95E8D797FB2B32C38F1E8595F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		87FA88BEDE15CBF48A99BBCF1D3AD29D /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 73666182485E0554A9705545EBE37240 /* pt.lproj */; };
+		95631E025993122B2691CE27A80D7607 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2AECBF6339F33F140F1521C0B0B303D1 /* da.lproj */; };
 		980685C094B36104E781B0D4E4976EE8 /* Pods-DockerBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A41C5D5DDCD4C08618D6A12899137596 /* Pods-DockerBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE2A3D52E26ECCDB0F8506F24E1A036 /* Pods-DockerBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A9E027F474DAC35754E63D9F3C2176 /* Pods-DockerBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A4D976381C6812593412FA150CB9641 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 73C0DD99406251383BCF305113327CE7 /* sk.lproj */; };
+		9CAF0900CCEB18266C2D439C3AF49B2C /* pt_BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2917EB4789512B4D7ED9E356BAE118E6 /* pt_BR.lproj */; };
+		A9A49A05A5355A0817E1EB96E7BDF94E /* LetsMove-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E70FDE2DB19AD75CA3226C32A0432E83 /* LetsMove-dummy.m */; };
+		AE4B87C200706A623403FE035E733515 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 27B52EE580732D9C226EB538F0BB84A3 /* fr.lproj */; };
+		B73A7606ACA6005E97B341629FA8AC05 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
 		C2E93746115B754064414107A3302173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		D3B424196CC293E0EC6E4215A2819C94 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 75F48022323078823C00DF237B3493B3 /* nl.lproj */; };
+		D8B5128EDB76488CCA4E89E1E097B5BA /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6F3F90E68FF89CF62D298EDB7A30E1AB /* es.lproj */; };
+		DA978C41D1095D702500733B23F28FEC /* zh_TW.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 797D433266FFA88BA5EF5D86E91DBEC7 /* zh_TW.lproj */; };
+		DAF3D7BD53889AA24DA358EC0E0F370D /* sr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4D6C3E637BCDDDC9DB7318B25D88EE0F /* sr.lproj */; };
+		DB76AA614CEC0561A4CAB02EF9A30AAE /* Pods-DockerBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7337391CA0409BEB0B9FB770E1F69 /* Pods-DockerBar-dummy.m */; };
+		E1EF39E4E0A9F65366E14ED95F6C1CCF /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4DB84A73E4D4871C4C520F504B820B9E /* zh_CN.lproj */; };
 		E253C6BC71390AC7C78EF1DDE26C2DF9 /* Pods-DockerBarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63106D084EF0B283C8EDBCA50B51457E /* Pods-DockerBarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E26E8C141B17CBD311408A10774B1CA9 /* PFMoveApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FC38B499952DA1AAADF0B9FF0072CD0B /* PFMoveApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2769CEC904C28EE2C10D87FD5253EFB /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9B44ABE636981F89A2DE7AA81C76373B /* cs.lproj */; };
+		ECB8EC9BEE0AB6E89B955D09E755BAFF /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EC83F111112486FBBC9855FEA678371E /* ja.lproj */; };
+		F22702549B4430C94BDDA78692242981 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 88EE7874A77918107B0DA18E2C90E412 /* it.lproj */; };
+		F5CED0AA1B75E908E27DCA1957B6BFB7 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 857A301ED121C094632C2CEDAD84953C /* hu.lproj */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A2CE6A32CDA9E628768861D2B3CFCE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A4DE1508C6CA686DC4DDEB83341720;
+			remoteInfo = LetsMove;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		01AF6A1F33BC288CBB4C9DA9FC7FF2BA /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ru.lproj; sourceTree = "<group>"; };
+		05341E045998C10F09BD4F36AEFFC223 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
 		05436BE1F5FDF8A0CA29A1074720947F /* Pods-DockerBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarUITests-resources.sh"; sourceTree = "<group>"; };
 		05919F0BF91E6391F1F7FFFB3E21643C /* Pods-DockerBarHelper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarHelper-acknowledgements.plist"; sourceTree = "<group>"; };
+		062E2A446D45C1375C907E0740306B44 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		066E8E0CA9DEA71C7C86328A5618BEFF /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
 		06ECEA0E1CCE6019AD20C2ACB931E5EB /* Pods-DockerBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		08F0E3ABE0F7FFF0B060E49C18859B20 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		098E6864A7B900C354092929510F6742 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
+		0AD52B09DA235E1205F99B0C245B2C3C /* LetsMove.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetsMove.xcconfig; sourceTree = "<group>"; };
 		13CC385CADB8DE9BEF24A24798579E32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		144C0B8B874530BA1783A2BD8E9ECFC4 /* Pods-DockerBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarTests-resources.sh"; sourceTree = "<group>"; };
-		146EB1FFD3039CBBC121466BC10E749F /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
-		206FC0298653B913F6DE0E15DF72023A /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		15109043C236C400643B3117450D3569 /* Pods_DockerBarHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarHelper.framework; path = "Pods-DockerBarHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A07F90D278AC9266E4D6048D190996 /* LetsMove.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LetsMove.modulemap; sourceTree = "<group>"; };
+		1B28B605E64F4722C76FFB908F9EADEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F25507C8AEB21F0972F866392943D5 /* Pods-DockerBarHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarHelper-umbrella.h"; sourceTree = "<group>"; };
 		21A91D53500841611A3D4DA3F02FC856 /* Pods-DockerBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarTests.modulemap"; sourceTree = "<group>"; };
 		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		2A68FB6161EB6D13E0025D572C32A5C8 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		27B52EE580732D9C226EB538F0BB84A3 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fr.lproj; sourceTree = "<group>"; };
+		2917EB4789512B4D7ED9E356BAE118E6 /* pt_BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt_BR.lproj; sourceTree = "<group>"; };
+		292E5189D86C73298CE5C9C90F26BBD4 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sv.lproj; sourceTree = "<group>"; };
+		2AECBF6339F33F140F1521C0B0B303D1 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = da.lproj; sourceTree = "<group>"; };
+		2B323967883BC72CE13A21C8A62A41A0 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
 		2B8402B3B788BFA3B5AAADF32D7D8DAE /* Pods-DockerBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarUITests-dummy.m"; sourceTree = "<group>"; };
 		2F10C73F55C6349566A55BE127B4A457 /* Pods-DockerBarHelper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarHelper-frameworks.sh"; sourceTree = "<group>"; };
 		317BDD7B4C5581649DAC1AF3B308AE5A /* Pods-DockerBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32C64C03F846D0299AA6D9328DB103D5 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		3BF5A88B523765D7D7DC5DC2BAEBBC6E /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = tr.lproj; sourceTree = "<group>"; };
 		4060B514CC85194F21AFE22B53DA0840 /* Pods-DockerBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarUITests-frameworks.sh"; sourceTree = "<group>"; };
 		41CAB537FED2DA9A4FF1D5590843AF66 /* Pods-DockerBarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarUITests.modulemap"; sourceTree = "<group>"; };
+		42B42211D0F547AFEBC8C599E85F155A /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
+		42BC5351E7AC3923616B1000A4E1D360 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ko.lproj; sourceTree = "<group>"; };
+		4A36C93A104C11C4E2B78D71EB1A93F6 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		4BFE6E441B076DA0921C3755EA11D059 /* LetsMove-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetsMove-prefix.pch"; sourceTree = "<group>"; };
 		4CAF4A6E611204AF029922131E086F42 /* Pods-DockerBarHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarHelper.modulemap"; sourceTree = "<group>"; };
+		4D6C3E637BCDDDC9DB7318B25D88EE0F /* sr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sr.lproj; sourceTree = "<group>"; };
+		4DB84A73E4D4871C4C520F504B820B9E /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = zh_CN.lproj; sourceTree = "<group>"; };
+		4EEF2E4AB0AD0FE07E0F15A171DE2A21 /* mk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = mk.lproj; sourceTree = "<group>"; };
 		4FA9B0A44A21B6F9E93DCFC1D313D411 /* Pods-DockerBarHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		5135BB4911CCF184E108813E79AA30AD /* Pods-DockerBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		517F2B2C9CDDE36AFE42DAEE3DED864A /* LetsMove-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetsMove-umbrella.h"; sourceTree = "<group>"; };
 		53A9E027F474DAC35754E63D9F3C2176 /* Pods-DockerBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBar-umbrella.h"; sourceTree = "<group>"; };
-		5740B52B690DCA5015CB0AECDF75F75F /* Pods_DockerBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarTests.framework; path = "Pods-DockerBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C9BABFE45FAB31E0D4B9CF746DD616B /* Pods_DockerBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarUITests.framework; path = "Pods-DockerBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5942C0D1698A499B1DD6F80EC9DB8866 /* LetsMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LetsMove.framework; path = LetsMove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED616940A7E9974555BD20B11A61426 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
 		63106D084EF0B283C8EDBCA50B51457E /* Pods-DockerBarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarUITests-umbrella.h"; sourceTree = "<group>"; };
 		6AE7337391CA0409BEB0B9FB770E1F69 /* Pods-DockerBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBar-dummy.m"; sourceTree = "<group>"; };
 		6C2DAAE6CE69BB44DA83CD95DC1DECDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3F90E68FF89CF62D298EDB7A30E1AB /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = es.lproj; sourceTree = "<group>"; };
 		727743811957A72615D03E8B0C108663 /* Pods-DockerBarHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarHelper-dummy.m"; sourceTree = "<group>"; };
-		7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarHelper.framework; path = "Pods-DockerBarHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73666182485E0554A9705545EBE37240 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt.lproj; sourceTree = "<group>"; };
+		73C0DD99406251383BCF305113327CE7 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = sk.lproj; sourceTree = "<group>"; };
+		75F48022323078823C00DF237B3493B3 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nl.lproj; sourceTree = "<group>"; };
+		797D433266FFA88BA5EF5D86E91DBEC7 /* zh_TW.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = zh_TW.lproj; sourceTree = "<group>"; };
+		81C4ED87C25753A69AF2BA05A92DEBF3 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		8340591990CD7FC36F6CCAAE1F281731 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ca.lproj; sourceTree = "<group>"; };
+		857A301ED121C094632C2CEDAD84953C /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = hu.lproj; sourceTree = "<group>"; };
 		86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBar.debug.xcconfig"; sourceTree = "<group>"; };
+		88EE7874A77918107B0DA18E2C90E412 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = it.lproj; sourceTree = "<group>"; };
 		88F3A9E72FB34B1354E52AC4F977BA51 /* Pods-DockerBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90E75E9DC7A922B4F94EA6E11741D6A8 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
+		8DCD9DCCE1C0F7F42C803F96027D0E94 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
 		91A8735FDCA4AE9A0E74CEE4CA4CEA89 /* Pods-DockerBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92B5A6F4527A5FD09F79BEE557EE0C7D /* Pods-DockerBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		935F0F722F57978E92C02E96E1859C42 /* Pods_DockerBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarTests.framework; path = "Pods-DockerBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97CA84C8F50C86BE348F1901AE4D2AF7 /* Pods_DockerBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBar.framework; path = "Pods-DockerBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B44ABE636981F89A2DE7AA81C76373B /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = cs.lproj; sourceTree = "<group>"; };
 		9BB6D5469C4130353DE842874E71C08F /* Pods-DockerBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBar-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9BBEF0C08F86F1F64273B37F62EEC042 /* Pods-DockerBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E16CF013C390CCF9BE5AD301976FC99 /* Pods_DockerBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBar.framework; path = "Pods-DockerBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A414136A0086AA527F54667AD581A6BF /* Pods-DockerBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A41C5D5DDCD4C08618D6A12899137596 /* Pods-DockerBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarTests-umbrella.h"; sourceTree = "<group>"; };
+		A5BCB3A320AA501E7BB8CC561227EFF6 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nb.lproj; sourceTree = "<group>"; };
 		A7821DCBB729E4867B71AF5557B68FBD /* Pods-DockerBarHelper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarHelper-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AA784C8915E353139A76AC5516B85EAC /* Pods-DockerBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBar-resources.sh"; sourceTree = "<group>"; };
+		AFFA257B2EF7C90F424B886B22714EBF /* LetsMove.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LetsMove.h; sourceTree = "<group>"; };
 		B03A0BFF33C721C651F4F4FBB80F3259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B674719E5E62F32ACAB3048DA32CBAAD /* Pods-DockerBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarTests-frameworks.sh"; sourceTree = "<group>"; };
-		BE06FF81E8B47CAE2929E9997A0FDD00 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
-		C2C9D1B34A27BA4F6CC2A7CE29DF23D1 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
 		C48F01F4035BE7B81CC5AF0FC421036B /* Pods-DockerBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBar-acknowledgements.plist"; sourceTree = "<group>"; };
 		C681CE05E88ED385A8633C01FBFD812D /* Pods-DockerBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBar.modulemap"; sourceTree = "<group>"; };
 		CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBar.release.xcconfig"; sourceTree = "<group>"; };
-		CFC2150FE91499A0C52A00AED7BC2471 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
 		D096A7BECC1504904A259002420917C9 /* Pods-DockerBarHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarHelper.release.xcconfig"; sourceTree = "<group>"; };
 		D133E263AB9EC094B8587FF979AC4462 /* Pods-DockerBarHelper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarHelper-resources.sh"; sourceTree = "<group>"; };
 		E6B88661664707D39F9BD85B12CC47A1 /* Pods-DockerBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarTests-dummy.m"; sourceTree = "<group>"; };
+		E70FDE2DB19AD75CA3226C32A0432E83 /* LetsMove-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetsMove-dummy.m"; sourceTree = "<group>"; };
+		E7E5FE6A86A7C183432A9187B4317D2D /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = de.lproj; sourceTree = "<group>"; };
+		E82B6B27B4F2B3A6A575C43C7D71CD25 /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		E8350C8E971F283B1732E5F7D8B6B088 /* Pods_DockerBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarUITests.framework; path = "Pods-DockerBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98065931C5002246B4FBBACAE808B49 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		EC83F111112486FBBC9855FEA678371E /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ja.lproj; sourceTree = "<group>"; };
 		ED7D868209E405F6EA8E3581622D4D9D /* Pods-DockerBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBar-frameworks.sh"; sourceTree = "<group>"; };
-		EDCF64026B6B952731DC763935DBB677 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
-		F8ACA9546912BB31E3554E432CC1AA43 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
+		EED0D0F59BFF71647B8A8D374A7B39E0 /* PFMoveApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
 		F9290AB8DC25EF98C222A4BBC78723D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC38B499952DA1AAADF0B9FF0072CD0B /* PFMoveApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
+		FF243899170F29CFA81E15552C351B8C /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pl.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +164,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		149999595D38FB820588A589EFAF1E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73A7606ACA6005E97B341629FA8AC05 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24835985E23F484DFCD06E46578FB901 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,11 +180,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A60B7B22400E6BE6AE1E17B1901664AD /* Frameworks */ = {
+		3BA431E6B60E341308FDB515C271135E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BFA69CA7311FC20353E7C03AEE195DB /* Cocoa.framework in Frameworks */,
+				869F3E95E8D797FB2B32C38F1E8595F9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +218,54 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		20FB651ED519B0C4062AC53FC4DE1C16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81AF587E0E19937FFE4BADE637DFCF93 /* LetsMove */,
+				55BBBFA490C71C2FBD671746130BAB34 /* Sparkle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				04C068A18C5413F804A2959126093416 /* OS X */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52759909D634FCA672A8BEAC2477E6B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B28B605E64F4722C76FFB908F9EADEE /* Info.plist */,
+				15A07F90D278AC9266E4D6048D190996 /* LetsMove.modulemap */,
+				0AD52B09DA235E1205F99B0C245B2C3C /* LetsMove.xcconfig */,
+				E70FDE2DB19AD75CA3226C32A0432E83 /* LetsMove-dummy.m */,
+				4BFE6E441B076DA0921C3755EA11D059 /* LetsMove-prefix.pch */,
+				517F2B2C9CDDE36AFE42DAEE3DED864A /* LetsMove-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LetsMove";
+			sourceTree = "<group>";
+		};
+		55BBBFA490C71C2FBD671746130BAB34 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				E98065931C5002246B4FBBACAE808B49 /* Sparkle.h */,
+				066E8E0CA9DEA71C7C86328A5618BEFF /* SUAppcast.h */,
+				E82B6B27B4F2B3A6A575C43C7D71CD25 /* SUAppcastItem.h */,
+				05341E045998C10F09BD4F36AEFFC223 /* SUErrors.h */,
+				42B42211D0F547AFEBC8C599E85F155A /* SUExport.h */,
+				8DCD9DCCE1C0F7F42C803F96027D0E94 /* SUStandardVersionComparator.h */,
+				4A36C93A104C11C4E2B78D71EB1A93F6 /* SUUpdater.h */,
+				062E2A446D45C1375C907E0740306B44 /* SUUpdaterDelegate.h */,
+				2B323967883BC72CE13A21C8A62A41A0 /* SUVersionComparisonProtocol.h */,
+				32C64C03F846D0299AA6D9328DB103D5 /* SUVersionDisplayProtocol.h */,
+				DEF1C1D486C60845FA4A07B6FE6FDFBC /* Frameworks */,
+			);
+			name = Sparkle;
+			path = Sparkle;
 			sourceTree = "<group>";
 		};
 		5B11BA9BC6D3C2E67DCE189FF0A5C25B /* Pods-DockerBarTests */ = {
@@ -162,14 +286,6 @@
 			path = "Target Support Files/Pods-DockerBarTests";
 			sourceTree = "<group>";
 		};
-		6C4A8D6723EA64B63D81821C58551253 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7DA37F5FD06B7D9792753E9152A8621A /* Sparkle */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6D5AA04DE608A6FC237BBEBAA123E90C /* Pods-DockerBarUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,53 +304,79 @@
 			path = "Target Support Files/Pods-DockerBarUITests";
 			sourceTree = "<group>";
 		};
-		768BE33C79B67013EEEABD5DAEC81C2C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				97CA84C8F50C86BE348F1901AE4D2AF7 /* Pods_DockerBar.framework */,
-				7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */,
-				5740B52B690DCA5015CB0AECDF75F75F /* Pods_DockerBarTests.framework */,
-				5C9BABFE45FAB31E0D4B9CF746DD616B /* Pods_DockerBarUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DA37F5FD06B7D9792753E9152A8621A /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				CFC2150FE91499A0C52A00AED7BC2471 /* Sparkle.h */,
-				EDCF64026B6B952731DC763935DBB677 /* SUAppcast.h */,
-				206FC0298653B913F6DE0E15DF72023A /* SUAppcastItem.h */,
-				90E75E9DC7A922B4F94EA6E11741D6A8 /* SUErrors.h */,
-				098E6864A7B900C354092929510F6742 /* SUExport.h */,
-				F8ACA9546912BB31E3554E432CC1AA43 /* SUStandardVersionComparator.h */,
-				C2C9D1B34A27BA4F6CC2A7CE29DF23D1 /* SUUpdater.h */,
-				BE06FF81E8B47CAE2929E9997A0FDD00 /* SUUpdaterDelegate.h */,
-				146EB1FFD3039CBBC121466BC10E749F /* SUVersionComparisonProtocol.h */,
-				2A68FB6161EB6D13E0025D572C32A5C8 /* SUVersionDisplayProtocol.h */,
-				B51F172CB8B6401B0613A2D3DBE6BB0B /* Frameworks */,
-			);
-			name = Sparkle;
-			path = Sparkle;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				6C4A8D6723EA64B63D81821C58551253 /* Pods */,
-				768BE33C79B67013EEEABD5DAEC81C2C /* Products */,
+				20FB651ED519B0C4062AC53FC4DE1C16 /* Pods */,
+				C5F2B3A9D2959F150173918EDE93B3D8 /* Products */,
 				17DCA54730EDF8B22C73EE89A3CB69EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B51F172CB8B6401B0613A2D3DBE6BB0B /* Frameworks */ = {
+		81AF587E0E19937FFE4BADE637DFCF93 /* LetsMove */ = {
 			isa = PBXGroup;
 			children = (
-				08F0E3ABE0F7FFF0B060E49C18859B20 /* Sparkle.framework */,
+				AFFA257B2EF7C90F424B886B22714EBF /* LetsMove.h */,
+				FC38B499952DA1AAADF0B9FF0072CD0B /* PFMoveApplication.h */,
+				EED0D0F59BFF71647B8A8D374A7B39E0 /* PFMoveApplication.m */,
+				E8BCE870AADD5CCEA81B9ADB0004C15E /* Resources */,
+				52759909D634FCA672A8BEAC2477E6B7 /* Support Files */,
+			);
+			name = LetsMove;
+			path = LetsMove;
+			sourceTree = "<group>";
+		};
+		C5F2B3A9D2959F150173918EDE93B3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5942C0D1698A499B1DD6F80EC9DB8866 /* LetsMove.framework */,
+				9E16CF013C390CCF9BE5AD301976FC99 /* Pods_DockerBar.framework */,
+				15109043C236C400643B3117450D3569 /* Pods_DockerBarHelper.framework */,
+				935F0F722F57978E92C02E96E1859C42 /* Pods_DockerBarTests.framework */,
+				E8350C8E971F283B1732E5F7D8B6B088 /* Pods_DockerBarUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF1C1D486C60845FA4A07B6FE6FDFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C4ED87C25753A69AF2BA05A92DEBF3 /* Sparkle.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8BCE870AADD5CCEA81B9ADB0004C15E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8340591990CD7FC36F6CCAAE1F281731 /* ca.lproj */,
+				9B44ABE636981F89A2DE7AA81C76373B /* cs.lproj */,
+				2AECBF6339F33F140F1521C0B0B303D1 /* da.lproj */,
+				E7E5FE6A86A7C183432A9187B4317D2D /* de.lproj */,
+				5ED616940A7E9974555BD20B11A61426 /* en.lproj */,
+				6F3F90E68FF89CF62D298EDB7A30E1AB /* es.lproj */,
+				27B52EE580732D9C226EB538F0BB84A3 /* fr.lproj */,
+				857A301ED121C094632C2CEDAD84953C /* hu.lproj */,
+				88EE7874A77918107B0DA18E2C90E412 /* it.lproj */,
+				EC83F111112486FBBC9855FEA678371E /* ja.lproj */,
+				42BC5351E7AC3923616B1000A4E1D360 /* ko.lproj */,
+				4EEF2E4AB0AD0FE07E0F15A171DE2A21 /* mk.lproj */,
+				A5BCB3A320AA501E7BB8CC561227EFF6 /* nb.lproj */,
+				75F48022323078823C00DF237B3493B3 /* nl.lproj */,
+				FF243899170F29CFA81E15552C351B8C /* pl.lproj */,
+				73666182485E0554A9705545EBE37240 /* pt.lproj */,
+				2917EB4789512B4D7ED9E356BAE118E6 /* pt_BR.lproj */,
+				01AF6A1F33BC288CBB4C9DA9FC7FF2BA /* ru.lproj */,
+				73C0DD99406251383BCF305113327CE7 /* sk.lproj */,
+				4D6C3E637BCDDDC9DB7318B25D88EE0F /* sr.lproj */,
+				292E5189D86C73298CE5C9C90F26BBD4 /* sv.lproj */,
+				3BF5A88B523765D7D7DC5DC2BAEBBC6E /* tr.lproj */,
+				4DB84A73E4D4871C4C520F504B820B9E /* zh_CN.lproj */,
+				797D433266FFA88BA5EF5D86E91DBEC7 /* zh_TW.lproj */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		EBEF47033DBD11B7B131B3C327F8C629 /* Pods-DockerBarHelper */ = {
@@ -284,6 +426,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		500EB9D6717492064B092807DD7A451A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2306C7F49120769DB7BBB31F79550271 /* Pods-DockerBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9204205EF0D1F2370D0B4BD0EAB220C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6158E1443BBA8FE7470505172B6997D2 /* LetsMove-umbrella.h in Headers */,
+				70B4C4AB06D7155D823147E93730A037 /* LetsMove.h in Headers */,
+				E26E8C141B17CBD311408A10774B1CA9 /* PFMoveApplication.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3BDF8BAAE8E2F2A1B50889386945FD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,14 +457,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D0A64F6C9FA3B4AF54D287E3C25A8F /* Pods-DockerBarHelper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEF9289199F4E0E993FFB97F0DFB4997 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDE2A3D52E26ECCDB0F8506F24E1A036 /* Pods-DockerBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +477,7 @@
 			);
 			name = "Pods-DockerBarTests";
 			productName = "Pods-DockerBarTests";
-			productReference = 5740B52B690DCA5015CB0AECDF75F75F /* Pods_DockerBarTests.framework */;
+			productReference = 935F0F722F57978E92C02E96E1859C42 /* Pods_DockerBarTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4AF40D9C85F5E9A8340969C00E7AC8B6 /* Pods-DockerBarHelper */ = {
@@ -342,7 +494,43 @@
 			);
 			name = "Pods-DockerBarHelper";
 			productName = "Pods-DockerBarHelper";
-			productReference = 7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */;
+			productReference = 15109043C236C400643B3117450D3569 /* Pods_DockerBarHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5ABB0C9DBD78D9A65ED02012E494CC61 /* Pods-DockerBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D37936F526AD0FCF9735EE568F8053 /* Build configuration list for PBXNativeTarget "Pods-DockerBar" */;
+			buildPhases = (
+				58DBA6B9CD35A4D87FDA201AAE22A7D1 /* Sources */,
+				3BA431E6B60E341308FDB515C271135E /* Frameworks */,
+				500EB9D6717492064B092807DD7A451A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B3C9F331CA58BEBEF31DAEDFBE32DE /* PBXTargetDependency */,
+			);
+			name = "Pods-DockerBar";
+			productName = "Pods-DockerBar";
+			productReference = 9E16CF013C390CCF9BE5AD301976FC99 /* Pods_DockerBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92A4DE1508C6CA686DC4DDEB83341720 /* LetsMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C9E1D1B2D3C40DDABE52C3094AD109 /* Build configuration list for PBXNativeTarget "LetsMove" */;
+			buildPhases = (
+				0C2474DA456FBB23949EE43EC0412A91 /* Sources */,
+				149999595D38FB820588A589EFAF1E9F /* Frameworks */,
+				9204205EF0D1F2370D0B4BD0EAB220C8 /* Headers */,
+				E1C04E868B12DC1457CD379166ECE4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsMove;
+			productName = LetsMove;
+			productReference = 5942C0D1698A499B1DD6F80EC9DB8866 /* LetsMove.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0F63653E6FEE3615E79744035FDC1C6 /* Pods-DockerBarUITests */ = {
@@ -359,24 +547,7 @@
 			);
 			name = "Pods-DockerBarUITests";
 			productName = "Pods-DockerBarUITests";
-			productReference = 5C9BABFE45FAB31E0D4B9CF746DD616B /* Pods_DockerBarUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FC7DC2C92852D3D2C4642EB007BB3955 /* Pods-DockerBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2696462DA25A7831B379F997649E81E1 /* Build configuration list for PBXNativeTarget "Pods-DockerBar" */;
-			buildPhases = (
-				2B6E6ECE20B844494A31DACC53AE1B54 /* Sources */,
-				A60B7B22400E6BE6AE1E17B1901664AD /* Frameworks */,
-				EEF9289199F4E0E993FFB97F0DFB4997 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-DockerBar";
-			productName = "Pods-DockerBar";
-			productReference = 97CA84C8F50C86BE348F1901AE4D2AF7 /* Pods_DockerBar.framework */;
+			productReference = E8350C8E971F283B1732E5F7D8B6B088 /* Pods_DockerBarUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -396,11 +567,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 768BE33C79B67013EEEABD5DAEC81C2C /* Products */;
+			productRefGroup = C5F2B3A9D2959F150173918EDE93B3D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC7DC2C92852D3D2C4642EB007BB3955 /* Pods-DockerBar */,
+				92A4DE1508C6CA686DC4DDEB83341720 /* LetsMove */,
+				5ABB0C9DBD78D9A65ED02012E494CC61 /* Pods-DockerBar */,
 				4AF40D9C85F5E9A8340969C00E7AC8B6 /* Pods-DockerBarHelper */,
 				0AFA58DD5A4136A558BF3E80F622D016 /* Pods-DockerBarTests */,
 				D0F63653E6FEE3615E79744035FDC1C6 /* Pods-DockerBarUITests */,
@@ -408,12 +580,55 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E1C04E868B12DC1457CD379166ECE4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131095D105043E805537CF82ECE0F76C /* ca.lproj in Resources */,
+				E2769CEC904C28EE2C10D87FD5253EFB /* cs.lproj in Resources */,
+				95631E025993122B2691CE27A80D7607 /* da.lproj in Resources */,
+				8042A9BC03C48961DBE51AC3B0F211EA /* de.lproj in Resources */,
+				309286AA8678E50010EFA191961E9D33 /* en.lproj in Resources */,
+				D8B5128EDB76488CCA4E89E1E097B5BA /* es.lproj in Resources */,
+				AE4B87C200706A623403FE035E733515 /* fr.lproj in Resources */,
+				F5CED0AA1B75E908E27DCA1957B6BFB7 /* hu.lproj in Resources */,
+				F22702549B4430C94BDDA78692242981 /* it.lproj in Resources */,
+				ECB8EC9BEE0AB6E89B955D09E755BAFF /* ja.lproj in Resources */,
+				78745CBBA7245D6A3BDC1DFC93E2F79A /* ko.lproj in Resources */,
+				01CFC97606CF98B03966E52421BBAA46 /* mk.lproj in Resources */,
+				0842E24FFD6A9D319935CA16685BCDD6 /* nb.lproj in Resources */,
+				D3B424196CC293E0EC6E4215A2819C94 /* nl.lproj in Resources */,
+				403D39C264AB499697DEC812D4386B5B /* pl.lproj in Resources */,
+				87FA88BEDE15CBF48A99BBCF1D3AD29D /* pt.lproj in Resources */,
+				9CAF0900CCEB18266C2D439C3AF49B2C /* pt_BR.lproj in Resources */,
+				28640BF1AC6DBECA3ACB15609DB3DD49 /* ru.lproj in Resources */,
+				9A4D976381C6812593412FA150CB9641 /* sk.lproj in Resources */,
+				DAF3D7BD53889AA24DA358EC0E0F370D /* sr.lproj in Resources */,
+				1F77D4E80E4055FB3946466A5D54A8BF /* sv.lproj in Resources */,
+				73E88D8C3B585EA17C8AEB8410A160C7 /* tr.lproj in Resources */,
+				E1EF39E4E0A9F65366E14ED95F6C1CCF /* zh_CN.lproj in Resources */,
+				DA978C41D1095D702500733B23F28FEC /* zh_TW.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2B6E6ECE20B844494A31DACC53AE1B54 /* Sources */ = {
+		0C2474DA456FBB23949EE43EC0412A91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009056740DA4A659A09C2B2D86B3B5A0 /* Pods-DockerBar-dummy.m in Sources */,
+				A9A49A05A5355A0817E1EB96E7BDF94E /* LetsMove-dummy.m in Sources */,
+				0BA8268EF88EEF3564C90E251D12C397 /* PFMoveApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DBA6B9CD35A4D87FDA201AAE22A7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB76AA614CEC0561A4CAB02EF9A30AAE /* Pods-DockerBar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,10 +658,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C0B3C9F331CA58BEBEF31DAEDFBE32DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LetsMove;
+			target = 92A4DE1508C6CA686DC4DDEB83341720 /* LetsMove */;
+			targetProxy = A2CE6A32CDA9E628768861D2B3CFCE5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		11FE8CFBFF1614124F2A6F5C3795EC71 /* Release */ = {
+		0DF1115C593BA8E9BFD2538AE2757B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */;
+			baseConfigurationReference = 86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -454,7 +678,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -468,7 +692,7 @@
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MODULEMAP_FILE = "Target Support Files/Pods-DockerBar/Pods-DockerBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -479,7 +703,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		2CF9C06D5C9BADAF4C11146F9790E57D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -562,6 +786,43 @@
 			};
 			name = Debug;
 		};
+		3EB0C456377F16DF5D87158945F68E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DockerBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-DockerBar/Pods-DockerBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DockerBar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8418CDECDDA68427CB1D8C9522565C44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D096A7BECC1504904A259002420917C9 /* Pods-DockerBarHelper.release.xcconfig */;
@@ -635,43 +896,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B2F2B10DB14AE6B2FAA783697F032DE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DockerBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-DockerBar/Pods-DockerBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DockerBar;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CF8364E6F32D01F119994FC795F75312 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -784,6 +1008,40 @@
 			};
 			name = Debug;
 		};
+		ED14F0975FCC3F3CA47909EADB13E757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD52B09DA235E1205F99B0C245B2C3C /* LetsMove.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LetsMove/LetsMove-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetsMove/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/LetsMove/LetsMove.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LetsMove;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -824,23 +1082,57 @@
 			};
 			name = Release;
 		};
+		FC06A963F70F8AE511201193711E415C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD52B09DA235E1205F99B0C245B2C3C /* LetsMove.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LetsMove/LetsMove-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetsMove/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/LetsMove/LetsMove.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LetsMove;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00D37936F526AD0FCF9735EE568F8053 /* Build configuration list for PBXNativeTarget "Pods-DockerBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF1115C593BA8E9BFD2538AE2757B18 /* Debug */,
+				3EB0C456377F16DF5D87158945F68E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		10EB0EC5FA801334270D18B92BE93466 /* Build configuration list for PBXNativeTarget "Pods-DockerBarHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF8364E6F32D01F119994FC795F75312 /* Debug */,
 				8418CDECDDA68427CB1D8C9522565C44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2696462DA25A7831B379F997649E81E1 /* Build configuration list for PBXNativeTarget "Pods-DockerBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2F2B10DB14AE6B2FAA783697F032DE9 /* Debug */,
-				11FE8CFBFF1614124F2A6F5C3795EC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -868,6 +1160,15 @@
 			buildConfigurations = (
 				DEBEF17085AD25E92AADDB1C6F87D3FA /* Debug */,
 				DE0B7BB5BFC4470A7EEFBBBDD5A17584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C9E1D1B2D3C40DDABE52C3094AD109 /* Build configuration list for PBXNativeTarget "LetsMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06A963F70F8AE511201193711E415C /* Debug */,
+				ED14F0975FCC3F3CA47909EADB13E757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

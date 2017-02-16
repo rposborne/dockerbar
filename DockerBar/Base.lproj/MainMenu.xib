@@ -19,6 +19,7 @@
         </customObject>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DockerBar" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="w3P-aw-uEQ" customClass="SUUpdater"/>
         <menu id="P8r-Rg-sLY" userLabel="statusMenu">
             <items>
                 <menuItem title="Update" keyEquivalent="r" id="kYd-Ix-VMN">
@@ -63,6 +64,5 @@
             </connections>
             <point key="canvasLocation" x="-836" y="-354"/>
         </menu>
-        <customObject id="w3P-aw-uEQ" customClass="SUUpdater"/>
     </objects>
 </document>

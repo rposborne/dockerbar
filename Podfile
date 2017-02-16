@@ -7,6 +7,7 @@ target 'DockerBar' do
 
   # Pods for DockerBar
   pod 'Sparkle'
+  pod 'LetsMove'
   
   target 'DockerBarTests' do
     inherit! :search_paths
