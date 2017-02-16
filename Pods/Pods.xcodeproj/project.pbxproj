@@ -25,11 +25,16 @@
 		05436BE1F5FDF8A0CA29A1074720947F /* Pods-DockerBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarUITests-resources.sh"; sourceTree = "<group>"; };
 		05919F0BF91E6391F1F7FFFB3E21643C /* Pods-DockerBarHelper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarHelper-acknowledgements.plist"; sourceTree = "<group>"; };
 		06ECEA0E1CCE6019AD20C2ACB931E5EB /* Pods-DockerBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08F0E3ABE0F7FFF0B060E49C18859B20 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		098E6864A7B900C354092929510F6742 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
 		13CC385CADB8DE9BEF24A24798579E32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		144C0B8B874530BA1783A2BD8E9ECFC4 /* Pods-DockerBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarTests-resources.sh"; sourceTree = "<group>"; };
+		146EB1FFD3039CBBC121466BC10E749F /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		206FC0298653B913F6DE0E15DF72023A /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
 		20F25507C8AEB21F0972F866392943D5 /* Pods-DockerBarHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DockerBarHelper-umbrella.h"; sourceTree = "<group>"; };
 		21A91D53500841611A3D4DA3F02FC856 /* Pods-DockerBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBarTests.modulemap"; sourceTree = "<group>"; };
 		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2A68FB6161EB6D13E0025D572C32A5C8 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
 		2B8402B3B788BFA3B5AAADF32D7D8DAE /* Pods-DockerBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarUITests-dummy.m"; sourceTree = "<group>"; };
 		2F10C73F55C6349566A55BE127B4A457 /* Pods-DockerBarHelper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarHelper-frameworks.sh"; sourceTree = "<group>"; };
 		317BDD7B4C5581649DAC1AF3B308AE5A /* Pods-DockerBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 		7DF2739C4BD3A13CC43102C9C0144FD5 /* Pods_DockerBarHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DockerBarHelper.framework; path = "Pods-DockerBarHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C55D6F01E9CC3C47BCD0016E06E47C /* Pods-DockerBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBar.debug.xcconfig"; sourceTree = "<group>"; };
 		88F3A9E72FB34B1354E52AC4F977BA51 /* Pods-DockerBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DockerBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90E75E9DC7A922B4F94EA6E11741D6A8 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
 		91A8735FDCA4AE9A0E74CEE4CA4CEA89 /* Pods-DockerBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92B5A6F4527A5FD09F79BEE557EE0C7D /* Pods-DockerBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarTests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -60,13 +66,18 @@
 		AA784C8915E353139A76AC5516B85EAC /* Pods-DockerBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBar-resources.sh"; sourceTree = "<group>"; };
 		B03A0BFF33C721C651F4F4FBB80F3259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B674719E5E62F32ACAB3048DA32CBAAD /* Pods-DockerBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarTests-frameworks.sh"; sourceTree = "<group>"; };
+		BE06FF81E8B47CAE2929E9997A0FDD00 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		C2C9D1B34A27BA4F6CC2A7CE29DF23D1 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
 		C48F01F4035BE7B81CC5AF0FC421036B /* Pods-DockerBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DockerBar-acknowledgements.plist"; sourceTree = "<group>"; };
 		C681CE05E88ED385A8633C01FBFD812D /* Pods-DockerBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DockerBar.modulemap"; sourceTree = "<group>"; };
 		CCEF6C6162C568B50DDB1C727F37F7FF /* Pods-DockerBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBar.release.xcconfig"; sourceTree = "<group>"; };
+		CFC2150FE91499A0C52A00AED7BC2471 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
 		D096A7BECC1504904A259002420917C9 /* Pods-DockerBarHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DockerBarHelper.release.xcconfig"; sourceTree = "<group>"; };
 		D133E263AB9EC094B8587FF979AC4462 /* Pods-DockerBarHelper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBarHelper-resources.sh"; sourceTree = "<group>"; };
 		E6B88661664707D39F9BD85B12CC47A1 /* Pods-DockerBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DockerBarTests-dummy.m"; sourceTree = "<group>"; };
 		ED7D868209E405F6EA8E3581622D4D9D /* Pods-DockerBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DockerBar-frameworks.sh"; sourceTree = "<group>"; };
+		EDCF64026B6B952731DC763935DBB677 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		F8ACA9546912BB31E3554E432CC1AA43 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
 		F9290AB8DC25EF98C222A4BBC78723D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +162,14 @@
 			path = "Target Support Files/Pods-DockerBarTests";
 			sourceTree = "<group>";
 		};
+		6C4A8D6723EA64B63D81821C58551253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA37F5FD06B7D9792753E9152A8621A /* Sparkle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6D5AA04DE608A6FC237BBEBAA123E90C /* Pods-DockerBarUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,14 +199,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7DA37F5FD06B7D9792753E9152A8621A /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				CFC2150FE91499A0C52A00AED7BC2471 /* Sparkle.h */,
+				EDCF64026B6B952731DC763935DBB677 /* SUAppcast.h */,
+				206FC0298653B913F6DE0E15DF72023A /* SUAppcastItem.h */,
+				90E75E9DC7A922B4F94EA6E11741D6A8 /* SUErrors.h */,
+				098E6864A7B900C354092929510F6742 /* SUExport.h */,
+				F8ACA9546912BB31E3554E432CC1AA43 /* SUStandardVersionComparator.h */,
+				C2C9D1B34A27BA4F6CC2A7CE29DF23D1 /* SUUpdater.h */,
+				BE06FF81E8B47CAE2929E9997A0FDD00 /* SUUpdaterDelegate.h */,
+				146EB1FFD3039CBBC121466BC10E749F /* SUVersionComparisonProtocol.h */,
+				2A68FB6161EB6D13E0025D572C32A5C8 /* SUVersionDisplayProtocol.h */,
+				B51F172CB8B6401B0613A2D3DBE6BB0B /* Frameworks */,
+			);
+			name = Sparkle;
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				6C4A8D6723EA64B63D81821C58551253 /* Pods */,
 				768BE33C79B67013EEEABD5DAEC81C2C /* Products */,
 				17DCA54730EDF8B22C73EE89A3CB69EF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		B51F172CB8B6401B0613A2D3DBE6BB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F0E3ABE0F7FFF0B060E49C18859B20 /* Sparkle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EBEF47033DBD11B7B131B3C327F8C629 /* Pods-DockerBarHelper */ = {

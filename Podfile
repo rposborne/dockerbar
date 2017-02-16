@@ -6,7 +6,8 @@ target 'DockerBar' do
   use_frameworks!
 
   # Pods for DockerBar
-
+  pod 'Sparkle'
+  
   target 'DockerBarTests' do
     inherit! :search_paths
     # Pods for testing

@@ -20,6 +20,8 @@
 		E51BFDA01E5545ED00A2CD23 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */; };
 		E51BFDA11E5545F400A2CD23 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */; };
 		E51BFDA51E55465500A2CD23 /* DockerBarHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E548E0121E55529300C2E63C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E548E0111E55529300C2E63C /* Podfile */; };
+		E548E0151E555AC100C2E63C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E548E0141E555AC100C2E63C /* dsa_pub.pem */; };
 		E56DC2801E4A263C00D9D2D9 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */; };
 		E56DC2821E4A27F700D9D2D9 /* DockerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC2811E4A27F700D9D2D9 /* DockerContainer.swift */; };
 		E5CDC8421E4951C600DD297F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDC8411E4951C600DD297F /* AppDelegate.swift */; };
@@ -84,6 +86,8 @@
 		E51BFD981E5545C800A2CD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E51BFD9A1E5545C800A2CD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		E548E0111E55529300C2E63C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E548E0141E555AC100C2E63C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		E56DC2811E4A27F700D9D2D9 /* DockerContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DockerContainer.swift; sourceTree = "<group>"; };
 		E5CDC83E1E4951C600DD297F /* DockerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,9 +195,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E548E0131E555AB000C2E63C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E548E0141E555AC100C2E63C /* dsa_pub.pem */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E5CDC8351E4951C600DD297F = {
 			isa = PBXGroup;
 			children = (
+				E548E0131E555AB000C2E63C /* Resources */,
 				E5CDC8401E4951C600DD297F /* DockerBar */,
 				E5CDC8501E4951C600DD297F /* DockerBarTests */,
 				E5CDC85B1E4951C600DD297F /* DockerBarUITests */,
@@ -218,6 +231,7 @@
 		E5CDC8401E4951C600DD297F /* DockerBar */ = {
 			isa = PBXGroup;
 			children = (
+				E548E0111E55529300C2E63C /* Podfile */,
 				E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */,
 				E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */,
 				E5CDC8411E4951C600DD297F /* AppDelegate.swift */,
@@ -405,6 +419,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E548E0121E55529300C2E63C /* Podfile in Resources */,
+				E548E0151E555AC100C2E63C /* dsa_pub.pem in Resources */,
 				E50F46591E4EC1980075AD7F /* ContainerView.xib in Resources */,
 				E5CDC8441E4951C600DD297F /* Assets.xcassets in Resources */,
 				E50F46571E4EBF3D0075AD7F /* PreferencesWindow.xib in Resources */,
@@ -912,6 +928,7 @@
 				E51BFD9D1E5545C800A2CD23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5CDC8391E4951C600DD297F /* Build configuration list for PBXProject "DockerBar" */ = {
 			isa = XCConfigurationList;

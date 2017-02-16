@@ -41,6 +41,17 @@
                         <action selector="preferencesClicked:" target="BSI-y2-KIW" id="3m1-Cw-qRi"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Check for Updates..." id="WLL-Es-gff">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <binding destination="w3P-aw-uEQ" name="target" keyPath="self" id="oaz-MI-CRn">
+                            <dictionary key="options">
+                                <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
+                                <string key="NSSelectorName">checkForUpdates</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" keyEquivalent="q" id="CuI-J5-xql">
                     <connections>
                         <action selector="quitClicked:" target="BSI-y2-KIW" id="0Xn-dc-DNR"/>
@@ -50,7 +61,8 @@
             <connections>
                 <outlet property="delegate" destination="CuI-J5-xql" id="yak-zk-wBb"/>
             </connections>
-            <point key="canvasLocation" x="-629.5" y="-326.5"/>
+            <point key="canvasLocation" x="-836" y="-354"/>
         </menu>
+        <customObject id="w3P-aw-uEQ" customClass="SUUpdater"/>
     </objects>
 </document>
