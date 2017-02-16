@@ -26,12 +26,6 @@
                         <action selector="updateClicked:" target="BSI-y2-KIW" id="ee2-tm-mp0"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Restart Docker" alternate="YES" keyEquivalent="r" id="61z-Gc-Z7y">
-                    <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                    <connections>
-                        <action selector="updateClicked:" target="BSI-y2-KIW" id="XKZ-YN-lJz"/>
-                    </connections>
-                </menuItem>
                 <menuItem isSeparatorItem="YES" id="C4b-LP-Kbv"/>
                 <menuItem title="DockerVersion" enabled="NO" id="gkg-Ur-9Xp">
                     <attributedString key="attributedTitle"/>

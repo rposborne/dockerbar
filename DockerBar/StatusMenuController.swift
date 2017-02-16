@@ -80,44 +80,83 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
         statusItem.menu?.insertItem(projectItem, at: 3)
         
         for container in containers.reversed() {
-            
-            var attributes : [String : Any] = [
-                NSFontAttributeName : NSFont.systemFont(ofSize: 22),
-                NSForegroundColorAttributeName : NSColor.red
-            ]
-            
-            if (container.active) {
-                attributes[ NSForegroundColorAttributeName] =  NSColor.green
-            }
-            
-            let dot = NSAttributedString(string: "•", attributes: attributes)
-            
-            let name = NSAttributedString(string: " " + container.name, attributes: [
-                NSFontAttributeName : NSFont.systemFont(ofSize: 18),
-                NSForegroundColorAttributeName: NSColor.textColor
-                ]
-            )
-            let row = NSMutableAttributedString()
-            
-            row.append(dot)
-            row.append(name)
-            
-            
-            let newItem : NSMenuItem = NSMenuItem(title: "", action: #selector(startContainer(_:)), keyEquivalent: "")
-            newItem.attributedTitle = row
-            newItem.toolTip = container.id
-            newItem.target = self
-            newItem.representedObject = container
-            
-            projectItem.submenu?.insertItem(newItem, at: 0)
+            projectItem.submenu?.insertItem(buildContainerDefaultView(container: container), at: 0)
+//            projectItem.submenu?.insertItem(buildContainerCopyIdView(container: container), at: 0)
         }
     }
     
-    func startContainer(_ sender: NSMenuItem) {
-        let container = sender.representedObject as! DockerContainer
-        docker.containerCommand(command: ["start", container.id]) {_ in
-            
+    func buildContainerDefaultView(container: DockerContainer) -> NSMenuItem {
+        var attributes : [String : Any] = [
+            NSFontAttributeName : NSFont.systemFont(ofSize: 22),
+            NSForegroundColorAttributeName : NSColor.red
+        ]
+        
+        if (container.active) {
+            attributes[ NSForegroundColorAttributeName] =  NSColor.green
         }
+        
+        let dot = NSAttributedString(string: "•", attributes: attributes)
+        
+        let name = NSAttributedString(string: " " + container.name, attributes: [
+            NSFontAttributeName : NSFont.systemFont(ofSize: 16),
+            NSForegroundColorAttributeName: NSColor.textColor
+            ]
+        )
+        let row = NSMutableAttributedString()
+        
+        row.append(dot)
+        row.append(name)
+        
+        
+        let newItem : NSMenuItem = NSMenuItem(title: "", action: #selector(toggleContainer(_:)), keyEquivalent: "")
+        newItem.attributedTitle = row
+        newItem.toolTip = container.id
+        newItem.target = self
+        newItem.representedObject = container
+        return newItem
+    }
+    
+    func buildContainerCopyIdView(container: DockerContainer) -> NSMenuItem {
+        let name = NSAttributedString(string: "Copy " + container.id, attributes: [
+            NSFontAttributeName : NSFont.systemFont(ofSize: 16),
+            NSForegroundColorAttributeName: NSColor.textColor
+            ]
+        )
+        
+        let key = String(utf16CodeUnits: [unichar(1)], count: 1) as String
+
+        let newItem : NSMenuItem = NSMenuItem(
+            title: "",
+          action: #selector(saveContainerIDtoPastboard(_:)),
+          keyEquivalent: "")
+        
+        newItem.keyEquivalentModifierMask = NSEventModifierFlags(rawValue: UInt(Int(NSEventModifierFlags.option.rawValue)))
+        newItem.keyEquivalent = key
+        newItem.attributedTitle = name
+        newItem.toolTip = container.id
+        newItem.target = self
+        newItem.representedObject = container
+        newItem.isAlternate = true
+        
+        return newItem
+    }
+    
+    func toggleContainer(_ sender: NSMenuItem) {
+        DispatchQueue.main.async {
+            let container = sender.representedObject as! DockerContainer
+            let commandToRun = container.active ? "stop" : "start"
+            self.docker.containerCommand(command: [ commandToRun, container.id]) {_ in
+                self.showContainers()
+            }
+        }
+        
+    }
+    
+    func saveContainerIDtoPastboard(_ sender: NSMenuItem) -> Void {
+        let container = sender.representedObject as! DockerContainer
+        let pasteboard = NSPasteboard.general()
+        pasteboard.clearContents()
+        pasteboard.setString(container.id, forType: NSPasteboardTypeString)
     }
     
     @IBAction func preferencesClicked(_ sender: NSMenuItem) {
