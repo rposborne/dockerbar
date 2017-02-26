@@ -45,10 +45,9 @@
                 <menuItem title="Check for Updates..." id="WLL-Es-gff">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <binding destination="w3P-aw-uEQ" name="target" keyPath="self" id="oaz-MI-CRn">
+                        <binding destination="w3P-aw-uEQ" name="target" keyPath="self" id="PKi-d6-QkA">
                             <dictionary key="options">
-                                <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
-                                <string key="NSSelectorName">checkForUpdates</string>
+                                <string key="NSSelectorName">checkForUpdates:</string>
                             </dictionary>
                         </binding>
                     </connections>

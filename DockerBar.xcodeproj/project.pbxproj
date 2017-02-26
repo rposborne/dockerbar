@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		682EDEADA7C08A8BF6E334EA /* Pods_DockerBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2DF4A2960927EA3A3003F0 /* Pods_DockerBarUITests.framework */; };
 		E50F46561E4EBF3D0075AD7F /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */; };
 		E50F46571E4EBF3D0075AD7F /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */; };
-		E50F46591E4EC1980075AD7F /* ContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F46581E4EC1980075AD7F /* ContainerView.xib */; };
 		E51BFD911E5545C800A2CD23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E51BFD901E5545C800A2CD23 /* AppDelegate.m */; };
 		E51BFD941E5545C800A2CD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E51BFD931E5545C800A2CD23 /* main.m */; };
 		E51BFD961E5545C800A2CD23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51BFD951E5545C800A2CD23 /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		E51BFDA51E55465500A2CD23 /* DockerBarHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E548E0121E55529300C2E63C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E548E0111E55529300C2E63C /* Podfile */; };
 		E548E0151E555AC100C2E63C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E548E0141E555AC100C2E63C /* dsa_pub.pem */; };
-		E56DC2801E4A263C00D9D2D9 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */; };
 		E56DC2821E4A27F700D9D2D9 /* DockerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DC2811E4A27F700D9D2D9 /* DockerContainer.swift */; };
 		E5CDC8421E4951C600DD297F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDC8411E4951C600DD297F /* AppDelegate.swift */; };
 		E5CDC8441E4951C600DD297F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CDC8431E4951C600DD297F /* Assets.xcassets */; };
@@ -77,7 +75,6 @@
 		C2EB748DEC1EA39050D4627A /* Pods-DockerBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DockerBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DockerBarTests/Pods-DockerBarTests.release.xcconfig"; sourceTree = "<group>"; };
 		E50F46541E4EBF3D0075AD7F /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
 		E50F46551E4EBF3D0075AD7F /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
-		E50F46581E4EC1980075AD7F /* ContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerView.xib; sourceTree = "<group>"; };
 		E51BFD8D1E5545C700A2CD23 /* DockerBarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockerBarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51BFD8F1E5545C800A2CD23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E51BFD901E5545C800A2CD23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,7 +85,6 @@
 		E51BFD9F1E5545ED00A2CD23 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		E548E0111E55529300C2E63C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E548E0141E555AC100C2E63C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
-		E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		E56DC2811E4A27F700D9D2D9 /* DockerContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DockerContainer.swift; sourceTree = "<group>"; };
 		E5CDC83E1E4951C600DD297F /* DockerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CDC8411E4951C600DD297F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -237,8 +233,6 @@
 				E5CDC8411E4951C600DD297F /* AppDelegate.swift */,
 				E5CDC8431E4951C600DD297F /* Assets.xcassets */,
 				E5CDC8451E4951C600DD297F /* MainMenu.xib */,
-				E56DC27F1E4A263C00D9D2D9 /* ContainerView.swift */,
-				E50F46581E4EC1980075AD7F /* ContainerView.xib */,
 				E5CDC8481E4951C600DD297F /* Info.plist */,
 				E5CDC86A1E4975E900DD297F /* StatusMenuController.swift */,
 				E5CDC86D1E497A5A00DD297F /* DockerAPI.swift */,
@@ -369,7 +363,6 @@
 					};
 					E5CDC83D1E4951C600DD297F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 747UW3DPNK;
 						ProvisioningStyle = Automatic;
 					};
 					E5CDC84C1E4951C600DD297F = {
@@ -385,7 +378,7 @@
 				};
 			};
 			buildConfigurationList = E5CDC8391E4951C600DD297F /* Build configuration list for PBXProject "DockerBar" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -421,7 +414,6 @@
 			files = (
 				E548E0121E55529300C2E63C /* Podfile in Resources */,
 				E548E0151E555AC100C2E63C /* dsa_pub.pem in Resources */,
-				E50F46591E4EC1980075AD7F /* ContainerView.xib in Resources */,
 				E5CDC8441E4951C600DD297F /* Assets.xcassets in Resources */,
 				E50F46571E4EBF3D0075AD7F /* PreferencesWindow.xib in Resources */,
 				E5CDC8471E4951C600DD297F /* MainMenu.xib in Resources */,
@@ -641,7 +633,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E56DC2801E4A263C00D9D2D9 /* ContainerView.swift in Sources */,
 				E5CDC86B1E4975E900DD297F /* StatusMenuController.swift in Sources */,
 				E5CDC8421E4951C600DD297F /* AppDelegate.swift in Sources */,
 				E5CDC86E1E497A5A00DD297F /* DockerAPI.swift in Sources */,
