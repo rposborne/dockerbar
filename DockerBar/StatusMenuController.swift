@@ -53,18 +53,15 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
     
     func showContainers() -> Void {
         docker.containers() { (containers: [DockerContainer]) in
-            let groupedContainers = containers.categorise { $0.compose_project as String! }
-            for (maybeProject, containers) in groupedContainers {
-                
-                if let project = maybeProject {
-                    // Remove existing project groupings and all of children
-                    if let projectView = self.statusMenu.item(withTitle: project) {
-                        self.statusMenu.removeItem(projectView)
-                    }
-                    
-                    
-                    buildProjectView(project: project, containers: containers)
+            let groupedContainers = containers.categorise { $0.compose_project as String }
+            for (project, containers) in groupedContainers {
+                // Remove existing project groupings and all of children
+                if let projectView = self.statusMenu.item(withTitle: project) {
+                    self.statusMenu.removeItem(projectView)
                 }
+                
+                
+                buildProjectView(project: project, containers: containers)
             }
         }
     }

@@ -40,7 +40,7 @@ class DockerAPI {
             
             
             for item in containerStrings {
-                let truncated = String(item.characters.dropFirst())
+                let truncated = String(item.dropFirst())
                 let stringWithoutQuotes = truncated.substring(to: truncated.index(before: truncated.endIndex))
                 
                 let data = stringWithoutQuotes.data(using: .utf8)!
