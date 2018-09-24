@@ -34,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6C380760215877A600728728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5CDC8361E4951C600DD297F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E51BFD8C1E5545C700A2CD23;
+			remoteInfo = DockerBarHelper;
+		};
 		E5CDC84E1E4951C600DD297F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5CDC8361E4951C600DD297F /* Project object */;
@@ -333,6 +340,7 @@
 			);
 			dependencies = (
 				E5CDC85A1E4951C600DD297F /* PBXTargetDependency */,
+				6C380761215877A600728728 /* PBXTargetDependency */,
 			);
 			name = DockerBarUITests;
 			productName = DockerBarUITests;
@@ -351,12 +359,10 @@
 				TargetAttributes = {
 					E51BFD8C1E5545C700A2CD23 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 747UW3DPNK;
 						ProvisioningStyle = Automatic;
 					};
 					E5CDC83D1E4951C600DD297F = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
 					};
 					E5CDC84C1E4951C600DD297F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -567,6 +573,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6C380761215877A600728728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E51BFD8C1E5545C700A2CD23 /* DockerBarHelper */;
+			targetProxy = 6C380760215877A600728728 /* PBXContainerItemProxy */;
+		};
 		E5CDC84F1E4951C600DD297F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E5CDC83D1E4951C600DD297F /* DockerBar */;
@@ -750,6 +761,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 747UW3DPNK;
 				INFOPLIST_FILE = "$(SRCROOT)/DockerBar/Info.plist";
@@ -759,6 +771,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.burningpony.DockerBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -769,6 +782,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 747UW3DPNK;
 				INFOPLIST_FILE = "$(SRCROOT)/DockerBar/Info.plist";
@@ -778,6 +792,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.burningpony.DockerBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -791,7 +806,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 747UW3DPNK;
 				INFOPLIST_FILE = DockerBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -815,7 +830,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 747UW3DPNK;
 				INFOPLIST_FILE = DockerBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -838,7 +853,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 53P6VU425R;
+				DEVELOPMENT_TEAM = 747UW3DPNK;
 				INFOPLIST_FILE = DockerBarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -861,7 +876,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 53P6VU425R;
+				DEVELOPMENT_TEAM = 747UW3DPNK;
 				INFOPLIST_FILE = DockerBarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
