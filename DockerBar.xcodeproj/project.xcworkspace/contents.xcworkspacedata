@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/rposborne/code/WeatherBar/DockerBar.xcodeproj">
+      location = "self:/Users/rposborne/code/DockerBar/DockerBar.xcodeproj">
    </FileRef>
 </Workspace>
