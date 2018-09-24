@@ -1,6 +1,6 @@
 PODS:
-  - LetsMove (1.22)
-  - Sparkle (1.16.0)
+  - LetsMove (1.24)
+  - Sparkle (1.20.0)
 
 DEPENDENCIES:
   - LetsMove
@@ -12,8 +12,8 @@ SPEC REPOS:
     - Sparkle
 
 SPEC CHECKSUMS:
-  LetsMove: 407d4d14815e6dc1549b6a9fe8e4b0f6aed3e305
-  Sparkle: 57650c525b8922b1ef72021f9d92287fc7d5d6f0
+  LetsMove: fefe56bc7bc7fb7d37049e28a14f297961229fc5
+  Sparkle: 48999e7ee032f05ca05e28451eadf4af8ede6b44
 
 PODFILE CHECKSUM: 39a0d4eaa354ee01951b7e1a27045b2eefe27557
 
