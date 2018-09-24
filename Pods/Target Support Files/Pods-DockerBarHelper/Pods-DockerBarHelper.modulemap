@@ -1,6 +1,0 @@
-framework module Pods_DockerBarHelper {
-  umbrella header "Pods-DockerBarHelper-umbrella.h"
-
-  export *
-  module * { export * }
-}
