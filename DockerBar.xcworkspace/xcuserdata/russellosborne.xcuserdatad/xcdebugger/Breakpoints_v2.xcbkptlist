@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DockerBar/StatusMenuController.swift"
-            timestampString = "559445942.580804"
+            timestampString = "559447659.6370111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
             endingLineNumber = "42"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "StatusMenuController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -21,9 +21,9 @@ class PreferencesWindow: NSWindowController, NSWindowDelegate {
     @IBAction func toggleLaunchOnLogin(_ sender: NSButtonCell) {
         
         let defaults = UserDefaults.standard
-        defaults.setValue(sender.state, forKey: "startDockerBarOnLogin")
+        defaults.setValue(convertFromNSControlStateValue(sender.state), forKey: "startDockerBarOnLogin")
         
-        if (!SMLoginItemSetEnabled("com.burningpony.DockerBarHelper" as CFString, sender.state == 1)) {
+        if (!SMLoginItemSetEnabled("com.burningpony.DockerBarHelper" as CFString, sender.state.rawValue == 1)) {
             NSLog("Login Item Was Not Successful");
         }
         
@@ -41,7 +41,7 @@ class PreferencesWindow: NSWindowController, NSWindowDelegate {
         let dockerPath = defaults.string(forKey: "dockerPath") ?? DockerAPI.DEFAULT_DOCKER_PATH
         dockerPathTextField.stringValue = dockerPath
         
-        launchOnLogin.state = defaults.integer(forKey: "startDockerBarOnLogin")
+        launchOnLogin.state = convertToNSControlStateValue(defaults.integer(forKey: "startDockerBarOnLogin"))
     }
     
     override var windowNibName : String! {
@@ -54,4 +54,14 @@ class PreferencesWindow: NSWindowController, NSWindowDelegate {
         delegate?.preferencesDidUpdate()
     }
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSControlStateValue(_ input: NSControl.StateValue) -> Int {
+	return input.rawValue
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSControlStateValue(_ input: Int) -> NSControl.StateValue {
+	return NSControl.StateValue(rawValue: input)
 }

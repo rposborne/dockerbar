@@ -40,9 +40,7 @@ class DockerAPI {
             
             
             for item in containerStrings {
-                let truncated = String(item.dropFirst())
-                let stringWithoutQuotes = truncated.substring(to: truncated.index(before: truncated.endIndex))
-                
+                let stringWithoutQuotes = String(item.dropFirst()).dropLast()
                 let data = stringWithoutQuotes.data(using: .utf8)!
                 do {
                     if let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any]{
