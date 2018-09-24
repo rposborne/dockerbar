@@ -67,7 +67,7 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
     }
 
     func buildProjectView(project: String, containers: [DockerContainer]) -> Void {
-        let projectName = NSAttributedString(string: project, attributes: convertToOptionalNSAttributedStringKeyDictionary([convertFromNSAttributedStringKey(NSAttributedString.Key.font): NSFont.systemFont(ofSize: NSFont.systemFontSize)]))
+        let projectName = NSAttributedString(string: project, attributes: convertToOptionalNSAttributedStringKeyDictionary([NSAttributedString.Key.font.rawValue: NSFont.systemFont(ofSize: NSFont.systemFontSize)]))
         let projectItem : NSMenuItem = NSMenuItem(title: project, action: nil, keyEquivalent: "")
 
         projectItem.attributedTitle = projectName
@@ -78,25 +78,25 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
 
         for container in containers.reversed() {
             projectItem.submenu?.insertItem(buildContainerDefaultView(container: container), at: 0)
-//            projectItem.submenu?.insertItem(buildContainerCopyIdView(container: container), at: 0)
+            projectItem.submenu?.insertItem(buildContainerCopyIdView(container: container), at: 0)
         }
     }
 
     func buildContainerDefaultView(container: DockerContainer) -> NSMenuItem {
         var attributes : [String : Any] = [
-            convertFromNSAttributedStringKey(NSAttributedString.Key.font) : NSFont.systemFont(ofSize: 22),
-            convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor) : NSColor.red
+            NSAttributedString.Key.font.rawValue : NSFont.systemFont(ofSize: 22),
+            NSAttributedString.Key.foregroundColor.rawValue : NSColor.red
         ]
 
         if (container.active) {
-            attributes[ convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor)] =  NSColor.green
+            attributes[NSAttributedString.Key.foregroundColor.rawValue] =  NSColor.green
         }
 
         let dot = NSAttributedString(string: "•", attributes: convertToOptionalNSAttributedStringKeyDictionary(attributes))
 
         let name = NSAttributedString(string: " " + container.name, attributes: convertToOptionalNSAttributedStringKeyDictionary([
-            convertFromNSAttributedStringKey(NSAttributedString.Key.font) : NSFont.systemFont(ofSize: 16),
-            convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor): NSColor.textColor
+            NSAttributedString.Key.font.rawValue : NSFont.systemFont(ofSize: 16),
+            NSAttributedString.Key.foregroundColor.rawValue: NSColor.textColor
             ])
         )
         let row = NSMutableAttributedString()
@@ -115,8 +115,8 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
 
     func buildContainerCopyIdView(container: DockerContainer) -> NSMenuItem {
         let name = NSAttributedString(string: "Copy " + container.id, attributes: convertToOptionalNSAttributedStringKeyDictionary([
-            convertFromNSAttributedStringKey(NSAttributedString.Key.font) : NSFont.systemFont(ofSize: 16),
-            convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor): NSColor.textColor
+            NSAttributedString.Key.font.rawValue : NSFont.systemFont(ofSize: 16),
+            NSAttributedString.Key.foregroundColor.rawValue: NSColor.textColor
             ])
         )
 
@@ -173,9 +173,4 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
 fileprivate func convertToOptionalNSAttributedStringKeyDictionary(_ input: [String: Any]?) -> [NSAttributedString.Key: Any]? {
 	guard let input = input else { return nil }
 	return Dictionary(uniqueKeysWithValues: input.map { key, value in (NSAttributedString.Key(rawValue: key), value)})
-}
-
-// Helper function inserted by Swift 4.2 migrator.
-fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
-	return input.rawValue
 }
